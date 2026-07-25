@@ -1,0 +1,16 @@
+---
+import { PILLARS } from '../lib/site';
+interface Props { current?: string }
+const { current } = Astro.props;
+const cur = (key: string) => (current === key ? 'page' : undefined);
+---
+<nav class="main" aria-label="Primary">
+  <div class="navrow">
+    <a href="/articles/" class:list={[]} aria-current={cur('articles')}>Articles</a>
+    {PILLARS.map((p) => (
+      <a href={`/${p.slug}/`} class="pillar" aria-current={cur(p.slug)}>{p.label}</a>
+    ))}
+    <a href="/about/" aria-current={cur('about')}>About</a>
+    <a href="/subscribe/" class="subscribe-btn">Subscribe</a>
+  </div>
+</nav>

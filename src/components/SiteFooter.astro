@@ -1,0 +1,23 @@
+---
+import { SITE, PILLARS } from '../lib/site';
+---
+<footer class="site">
+  <div class="inner">
+    <div>
+      <div class="fmark">{SITE.name}</div>
+      <p>Valuation counsel to closely held businesses.<br />{SITE.firm} · {SITE.offices}</p>
+      <p style="margin-top:10px">{SITE.phone}</p>
+    </div>
+    <div>
+      <h5>Pillars</h5>
+      {PILLARS.map((p) => <a href={`/${p.slug}/`}>{p.label}</a>)}
+    </div>
+    <div>
+      <h5>Follow</h5>
+      <a href="/subscribe/">{SITE.newsletter}</a>
+      <a href="https://www.youtube.com/@CloselyHeld">@CloselyHeld · YouTube</a>
+      <a href="https://www.linkedin.com/in/jayrmcdaniel">LinkedIn</a>
+    </div>
+  </div>
+  <div class="redirect-note">thebusinessdivorcelawyer.com and valuationcounsel.law now redirect here — one hub, one archive, one name.</div>
+</footer>

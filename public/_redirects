@@ -1,0 +1,9 @@
+# Cloudflare Pages / Netlify redirects.
+#
+# Old-domain consolidation (build brief, Section 10) is done on the OLD domains'
+# DNS/hosting, pointing at this hub. Use this file for path-level 301s once you
+# have inventoried the old URLs. One rule per line: FROM  TO  STATUS
+#
+# Examples (replace with the real inventory before launch):
+# /old-business-divorce-post-slug   /business-divorce-post-slug/   301
+# /valuation-counsel-landing         /valuation/                    301

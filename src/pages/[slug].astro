@@ -1,0 +1,110 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { allPosts, postsByPillar, fmtDate } from '../lib/posts';
+import { SITE, pillarByLabel, tagSlug } from '../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { data } = post;
+const { Content } = await render(post);
+const pillar = pillarByLabel(data.pillar);
+
+// Related: same pillar, newest first, excluding this one.
+const related = (await postsByPillar(data.pillar)).filter((p) => p.id !== post.id).slice(0, 3);
+
+// Strip HTML tags for schema/meta text.
+const plain = (s: string) => s.replace(/<[^>]+>/g, '');
+const canonical = new URL(`/${post.id}/`, SITE.url).href;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: plain(data.title),
+  description: plain(data.answerFirst),
+  datePublished: data.date.toISOString(),
+  articleSection: data.pillar,
+  keywords: data.tags.join(', '),
+  mainEntityOfPage: canonical,
+  author: {
+    '@type': 'Person',
+    name: SITE.authorName,
+    honorificSuffix: 'Esq., CVA, CEPA',
+    url: SITE.url + '/about/',
+  },
+  publisher: { '@type': 'Organization', name: `${SITE.name} — Valuation Counsel` },
+};
+
+// The headline is a question and the lede answers it — a legitimate FAQPage pair (Section 8).
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: plain(data.title),
+      acceptedAnswer: { '@type': 'Answer', text: plain(data.answerFirst) },
+    },
+  ],
+};
+---
+<BaseLayout
+  title={`${plain(data.title)} — ${SITE.name}`}
+  description={plain(data.answerFirst).slice(0, 200)}
+  jsonld={[articleSchema, faqSchema]}
+  ogType="article"
+>
+  <article class="article-wrap">
+    <div class="kicker">{data.pillar}</div>
+    <div class="article-head">
+      <h1 set:html={data.title}></h1>
+      <div class="byline">By <b>{SITE.authorByline}</b> &nbsp;·&nbsp; {fmtDate(data.date)} &nbsp;·&nbsp; {data.readTime}</div>
+    </div>
+
+    <div class="article-body">
+      <p><span class="lede" set:html={data.answerFirst}></span></p>
+      <Content />
+    </div>
+
+    {data.tags.length > 0 && (
+      <div class="tagrow">
+        {data.tags.map((t) => <a href={`/topic/${tagSlug(t)}/`}>{t}</a>)}
+      </div>
+    )}
+
+    <div class="endsub">
+      <h3>{SITE.newsletter}</h3>
+      <p>One clear piece a week on what drives, protects, and realizes the value of a closely held business.</p>
+      <form class="subform" action="#" method="post">
+        <label for="end-email" class="skip-link">Your email address</label>
+        <input id="end-email" type="email" name="email" placeholder="Your email address" required />
+        <button type="submit">Subscribe free</button>
+      </form>
+    </div>
+
+    <div class="authorfoot">
+      <div class="avatar" aria-hidden="true">JM</div>
+      <div>
+        <div class="n">{SITE.authorName}</div>
+        <div class="c">{SITE.authorCreds}</div>
+        <p>Partner at {SITE.firm} and special valuation counsel to owners of closely held businesses. He writes on valuation, business divorce, and exit. <a href="/about/" style="color:var(--accent);text-decoration:none;font-weight:600">About →</a></p>
+      </div>
+    </div>
+
+    {related.length > 0 && (
+      <div class="related">
+        <h3>Related</h3>
+        {related.map((r) => (
+          <div class="rel-item">
+            <a href={`/${r.id}/`} set:html={r.data.title}></a>
+            <div class="rmeta">{r.data.pillar} · {fmtDate(r.data.date)}</div>
+          </div>
+        ))}
+      </div>
+    )}
+  </article>
+</BaseLayout>

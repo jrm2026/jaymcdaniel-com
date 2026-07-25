@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import PostRow from '../../components/PostRow.astro';
+import { allPosts } from '../../lib/posts';
+import { SITE, PILLARS } from '../../lib/site';
+
+const posts = await allPosts();
+---
+<BaseLayout
+  title={`Articles — ${SITE.name}`}
+  description="The full archive of Jay McDaniel's writing on valuation, business divorce, and exit — filterable by topic."
+  current="articles"
+>
+  <div class="wrap">
+    <div class="layout">
+      <div>
+        <div class="headnote">
+          <div class="kicker">The Archive</div>
+          <h1>Every piece, one place.</h1>
+          <p>The full feed across valuation, business divorce, and exit &amp; succession. Filter by topic, or narrow to a pillar from the navigation.</p>
+        </div>
+
+        <div class="filterbar" id="filter">
+          <button class="chip active" data-f="all">All Topics</button>
+          {PILLARS.map((p) => <button class="chip" data-f={p.filter}>{p.label}</button>)}
+          <button class="chip" data-f="matrimonial">Matrimonial</button>
+          <button class="chip" data-f="tax">Tax Controversy</button>
+        </div>
+
+        <div id="posts">
+          {posts.map((post) => <PostRow post={post} />)}
+        </div>
+      </div>
+
+      <Sidebar />
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  const chips = document.querySelectorAll('.chip');
+  const posts = document.querySelectorAll('#posts .post');
+  chips.forEach((c) =>
+    c.addEventListener('click', () => {
+      chips.forEach((x) => x.classList.remove('active'));
+      c.classList.add('active');
+      const f = c.dataset.f;
+      posts.forEach((p) => {
+        const match = f === 'all' || p.dataset.topic.split(' ').includes(f);
+        p.classList.toggle('hidden', !match);
+      });
+    })
+  );
+</script>

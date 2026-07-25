@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../lib/site';
+---
+<BaseLayout
+  title={`Work With Me — ${SITE.name}`}
+  description="How Jay McDaniel serves as special valuation counsel to owners of closely held businesses and the attorneys who represent them."
+>
+  <div class="page-wrap">
+    <h1>Work with me</h1>
+    <p class="sub">Special valuation counsel</p>
+
+    <p>I serve as special valuation counsel to owners of closely held businesses and to the attorneys who represent them. The engagement is usually narrow and high-stakes: the worth of a business, or of one owner's share of it, is at the center of a dispute or a transaction, and the number has to hold up.</p>
+
+    <p>That work takes a few recurring shapes. In a business divorce or oppression case, I build or attack the valuation that decides the buyout. In a matrimonial matter, I value the business under the standard that governs and explain why it differs from what a sale would bring. In a tax controversy, I help construct the appraisal record before the gift, not after the notice. And when a valuation report needs to be dismantled, I know where adversarial reports break &mdash; and how to make that visible to a court.</p>
+
+    <p>I also work with owners well before any dispute: on the operating-agreement and buy-sell terms that decide who controls the exit and at what price, and on the exit and succession planning that closes the value gaps &mdash; owner dependence, customer concentration, undocumented process &mdash; that otherwise cap the multiple years later.</p>
+
+    <p>If you are a lawyer with a valuation problem you would rather not hand to just anyone, or an owner facing a dispute, a buyout, or a sale, one conversation tells us both whether it is a fit.</p>
+
+    <div class="engage" style="border-radius:8px;margin-top:30px">
+      <div class="inner">
+        <div>
+          <h4>Start with a strategy call.</h4>
+          <p>Tell me what is in front of you. I will tell you plainly whether and how I can help.</p>
+        </div>
+        <a href={`tel:${SITE.phone.replace(/[^0-9]/g, '')}`} class="cta">Schedule a strategy call</a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

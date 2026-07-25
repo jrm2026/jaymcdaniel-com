@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../lib/site';
+---
+<BaseLayout
+  title={`Subscribe — ${SITE.newsletter}`}
+  description={`${SITE.newsletter}: one clear piece a week on what drives, protects, and realizes the value of a closely held business.`}
+  current="subscribe"
+>
+  <div class="page-wrap">
+    <h1>{SITE.newsletter}</h1>
+    <p class="sub">Free · Weekly</p>
+
+    <p>One clear piece a week on what drives, protects, and realizes the value of a closely held business. No filler, no roundups &mdash; a single question worth an attorney's or an owner's time, answered first and explained plainly. It is read by lawyers who send valuation problems my way, by owners weighing a dispute or an exit, and by the advisors around them.</p>
+
+    <div class="endsub" style="margin-top:26px">
+      <h3>Subscribe free</h3>
+      <p>Enter your email. One message a week. Unsubscribe anytime.</p>
+      <!-- Point action at your email provider's form endpoint (Kit / MailerLite / Buttondown). -->
+      <form class="subform" action="#" method="post">
+        <label for="page-email" class="skip-link">Your email address</label>
+        <input id="page-email" type="email" name="email" placeholder="Your email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <p style="margin-top:26px;font-size:14px;color:var(--muted)">Prefer video? The same questions get short breakdowns on <a href="https://www.youtube.com/@CloselyHeld">@CloselyHeld</a>.</p>
+  </div>
+</BaseLayout>

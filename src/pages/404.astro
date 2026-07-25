@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../lib/site';
+---
+<BaseLayout title={`Not found — ${SITE.name}`} description="Page not found.">
+  <div class="page-wrap" style="text-align:center;padding-top:70px;padding-bottom:50px">
+    <h1>That page has moved or never existed.</h1>
+    <p>Try the <a href="/articles/">full archive</a>, or start from the <a href="/">latest writing</a>.</p>
+  </div>
+</BaseLayout>

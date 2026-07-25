@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PillarLanding from '../../components/PillarLanding.astro';
+import { SITE, pillarBySlug } from '../../lib/site';
+const p = pillarBySlug('valuation')!;
+---
+<BaseLayout title={`${p.label} — ${SITE.name}`} description={p.headnote.slice(0, 155)} current="valuation">
+  <PillarLanding slug="valuation" />
+</BaseLayout>

@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Sidebar from '../components/Sidebar.astro';
+import PostRow from '../components/PostRow.astro';
+import { allPosts, fmtDate } from '../lib/posts';
+import { SITE, PILLARS, pillarByLabel } from '../lib/site';
+
+const posts = await allPosts();
+const featured = posts[0];
+const rest = posts.slice(1);
+const featPillar = featured ? pillarByLabel(featured.data.pillar) : undefined;
+---
+<BaseLayout
+  title={`${SITE.name} — ${SITE.tagline}`}
+  description="Answer-first writing on business valuation, business divorce, and exit planning for closely held companies, by Jay R. McDaniel, CVA, CEPA."
+  current="home"
+>
+  <div class="wrap">
+    <div class="layout">
+      <div>
+        {featured && (
+          <div class="featured">
+            <div class="kicker">Latest · {featured.data.pillar}</div>
+            <h1><a href={`/${featured.id}/`} set:html={featured.data.title}></a></h1>
+            <div class="byline">By <b>{SITE.authorByline}</b> &nbsp;·&nbsp; {fmtDate(featured.data.date)} &nbsp;·&nbsp; {featured.data.readTime}</div>
+            <p class="answer-first"><span class="lede" set:html={featured.data.answerFirst}></span></p>
+            <a href={`/${featured.id}/`} class="readmore">Continue reading →</a>
+          </div>
+        )}
+
+        <div class="filterbar" id="filter">
+          <button class="chip active" data-f="all">All Topics</button>
+          {PILLARS.map((p) => <button class="chip" data-f={p.filter}>{p.label}</button>)}
+          <button class="chip" data-f="matrimonial">Matrimonial</button>
+          <button class="chip" data-f="tax">Tax Controversy</button>
+        </div>
+
+        <div id="posts">
+          {rest.map((post) => <PostRow post={post} />)}
+        </div>
+
+        <div class="loadmore"><a href="/articles/">Older Articles →</a></div>
+      </div>
+
+      <Sidebar />
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  const chips = document.querySelectorAll('.chip');
+  const posts = document.querySelectorAll('#posts .post');
+  chips.forEach((c) =>
+    c.addEventListener('click', () => {
+      chips.forEach((x) => x.classList.remove('active'));
+      c.classList.add('active');
+      const f = c.dataset.f;
+      posts.forEach((p) => {
+        const match = f === 'all' || p.dataset.topic.split(' ').includes(f);
+        p.classList.toggle('hidden', !match);
+      });
+    })
+  );
+</script>

@@ -1,0 +1,29 @@
+---
+import Sidebar from './Sidebar.astro';
+import PostRow from './PostRow.astro';
+import { postsByPillar } from '../lib/posts';
+import { pillarBySlug } from '../lib/site';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+const pillar = pillarBySlug(slug)!;
+const posts = await postsByPillar(pillar.label);
+---
+<div class="wrap">
+  <div class="layout">
+    <div>
+      <div class="headnote">
+        <div class="kicker">Pillar</div>
+        <h1>{pillar.label}</h1>
+        <p>{pillar.headnote}</p>
+      </div>
+
+      <div id="posts">
+        {posts.map((post) => <PostRow post={post} />)}
+        {posts.length === 0 && <p class="dek">Pieces in this pillar are on the way.</p>}
+      </div>
+    </div>
+
+    <Sidebar />
+  </div>
+</div>

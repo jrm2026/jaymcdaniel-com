@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import PostRow from '../../components/PostRow.astro';
+import { allPosts } from '../../lib/posts';
+import { SITE, tagSlug } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  const tagMap = new Map<string, { label: string; slug: string }>();
+  for (const p of posts) {
+    for (const t of p.data.tags) {
+      const slug = tagSlug(t);
+      if (!tagMap.has(slug)) tagMap.set(slug, { label: t, slug });
+    }
+  }
+  return Array.from(tagMap.values()).map((tag) => ({
+    params: { tag: tag.slug },
+    props: { tag, posts: posts.filter((p) => p.data.tags.map(tagSlug).includes(tag.slug)) },
+  }));
+}
+
+const { tag, posts } = Astro.props;
+---
+<BaseLayout
+  title={`${tag.label} — ${SITE.name}`}
+  description={`Writing tagged ${tag.label}: valuation and ownership questions where the subject cuts across pillars.`}
+>
+  <div class="wrap">
+    <div class="layout">
+      <div>
+        <div class="headnote">
+          <div class="kicker">Topic</div>
+          <h1>{tag.label}</h1>
+          <p>Pieces tagged {tag.label} — a cross-cutting subject that runs through more than one pillar.</p>
+        </div>
+        <div id="posts">
+          {posts.map((post) => <PostRow post={post} />)}
+        </div>
+      </div>
+      <Sidebar />
+    </div>
+  </div>
+</BaseLayout>

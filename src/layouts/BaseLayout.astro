@@ -1,0 +1,76 @@
+---
+import '../styles/global.css';
+import { SITE } from '../lib/site';
+import Masthead from '../components/Masthead.astro';
+import Nav from '../components/Nav.astro';
+import EngagementBand from '../components/EngagementBand.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  current?: string;
+  /** Extra JSON-LD objects (Article, FAQPage, etc.) for this page. */
+  jsonld?: object[];
+  ogType?: string;
+}
+const { title, description, current, jsonld = [], ogType = 'website' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+
+// Person + LegalService entity — emitted on every page for a single, sharp entity (Section 8).
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: SITE.authorName,
+  honorificSuffix: 'Esq., CVA, CEPA',
+  jobTitle: 'Valuation Counsel',
+  description: 'Special valuation counsel to owners of closely held businesses.',
+  url: SITE.url,
+  worksFor: { '@type': 'Organization', name: SITE.firm },
+  sameAs: SITE.sameAs,
+};
+const org = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: `${SITE.authorName} — Valuation Counsel`,
+  url: SITE.url,
+  telephone: SITE.phone,
+  areaServed: 'US',
+  founder: { '@type': 'Person', name: SITE.authorName },
+};
+const graphs = [person, org, ...jsonld];
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.newsletter} href="/rss.xml" />
+    {graphs.map((g) => (
+      <script type="application/ld+json" set:html={JSON.stringify(g)} />
+    ))}
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <Masthead />
+    <Nav current={current} />
+    <main id="main">
+      <slot />
+    </main>
+    <EngagementBand />
+    <SiteFooter />
+  </body>
+</html>
