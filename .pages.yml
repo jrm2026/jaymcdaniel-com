@@ -1,0 +1,103 @@
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: posts
+    label: Journal
+    type: collection
+    path: src/content/posts
+    filename: "{fields.title}.md"
+    view:
+      fields: [title, pillar, date, draft]
+      primary: title
+      sort: [date, title, pillar]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Headline
+        type: string
+        required: true
+        description: "Phrase it as the question a client or referrer would actually type."
+
+      - name: answerFirst
+        label: Answer-first lede
+        type: text
+        required: true
+        options:
+          minlength: 200
+          maxlength: 480
+        description: "40-60 words that answer the headline directly. This is the citable unit for answer engines. Do not repeat it in the body."
+
+      - name: dek
+        label: Feed summary (dek)
+        type: text
+        options:
+          maxlength: 200
+        description: "One line shown in the article feed. Defaults to the lede if left blank."
+
+      - name: pillar
+        label: Pillar
+        type: select
+        required: true
+        options:
+          values:
+            - Valuation
+            - Business Divorce
+            - Exit & Succession
+        description: "Exactly one."
+
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          multiple: true
+          creatable: true
+          values:
+            - Matrimonial
+            - Tax Controversy
+            - Estate & Gift
+            - Dissolution
+            - Buy-Sell
+            - Fiduciary Duty
+            - Deadlock
+            - Governance
+            - Valuation Methodology
+            - Fair Value Standard
+            - Discounts & Premiums
+
+      - name: date
+        label: Publication date
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+
+      - name: readTime
+        label: Read time
+        type: string
+        default: "8 min read"
+
+      - name: draft
+        label: Draft
+        type: boolean
+        default: true
+        description: "Leave on until you are ready to publish. Drafts stay out of the live build."
+
+      - name: body
+        label: Body
+        type: text
+        description: "Markdown. Start with your first point - the lede renders above this automatically."
+
+  - name: site
+    label: Site identity
+    type: file
+    path: src/lib/site.ts
+    fields:
+      - name: body
+        label: site.ts
+        type: code
+        options:
+          language: typescript
