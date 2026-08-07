@@ -2,8 +2,8 @@
 title: How the Strategic Buyer or Hypothetical Buyer Sets Fair Value in a Buyout
 answerFirst: Fair value measures the enterprise, not the block of equity
   interests owned by one of the owners.  In a judicially supervised dissolution,
-  think about hHow a credible strategic buyer changes the number in an LLC or
-  shareholder buyout,
+  think about how a credible strategic buyer changes the number in an LLC or
+  shareholder buyou.
 pillar: Valuation
 tags:
   - Valuation Methodology
