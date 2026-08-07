@@ -40,10 +40,11 @@ const jsonld = [
 <BaseLayout
   title={`${d.title}, ${d.citation}`}
   description={d.holding ?? `${d.title}, ${d.citation}.`}
-  current="authorities"
+  current="journal"
   ogType="article"
   jsonld={jsonld}
 >
+  <div class="page-wrap">
   <article class="authority">
     <p class="kicker"><a href="/authorities/">Authorities</a></p>
 
@@ -98,10 +99,10 @@ const jsonld = [
       The commentary is my own and is not legal advice.
     </p>
   </article>
+  </div>
 </BaseLayout>
 
 <style>
-  .authority { max-width: 44rem; }
   .kicker { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
   .citation { font-size: 1.05rem; opacity: .8; margin-top: -.4rem; }
   .meta { display: grid; grid-template-columns: max-content 1fr; gap: .2rem 1.2rem; font-size: .9rem; margin: 1.4rem 0; }
