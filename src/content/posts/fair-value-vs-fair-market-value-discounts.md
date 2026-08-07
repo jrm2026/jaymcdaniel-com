@@ -13,7 +13,7 @@ tags:
   - Fiduciary Duty
 date: 2026-06-23
 readTime: 6 min read
-draft: true
+draft: false
 ---
 # Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case
 
