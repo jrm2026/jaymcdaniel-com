@@ -27,8 +27,9 @@ const grouped = order
 <BaseLayout
   title="Authorities"
   description="Cases and statutes cited across this site, with the official opinion and a note on what each one decides."
-  current="authorities"
+  current="journal"
 >
+  <div class="page-wrap">
   <h1>Authorities</h1>
   <p class="intro">
     The cases and statutes I cite, each with the official opinion and a short note on what it
@@ -51,6 +52,7 @@ const grouped = order
       </ul>
     </section>
   ))}
+  </div>
 </BaseLayout>
 
 <style>
@@ -62,4 +64,3 @@ const grouped = order
   .cite { display: block; font-size: .88rem; opacity: .7; }
   .holding { margin: .35rem 0 0; font-size: .92rem; max-width: 42rem; }
 </style>
-  
