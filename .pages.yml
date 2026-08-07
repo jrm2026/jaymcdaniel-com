@@ -7,9 +7,9 @@ content:
     label: Journal
     type: collection
     path: src/content/posts
-    filename: "{fields.title}.md"
+    filename: "{fields.slug}.md"
     view:
-      fields: [title, pillar, date, draft]
+      fields: [title, slug, pillar, date, draft]
       primary: title
       sort: [date, title, pillar]
       default:
@@ -21,6 +21,13 @@ content:
         type: string
         required: true
         description: "Phrase it as the question a client or referrer would actually type."
+
+      - name: slug
+        label: URL slug
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+        description: "This becomes the filename AND the live URL: jaymcdaniel.com/[slug]/. Lowercase, hyphens, no spaces. Set it once and do not change it after publishing - changing it breaks every inbound link and citation."
 
       - name: answerFirst
         label: Answer-first lede
@@ -75,6 +82,11 @@ content:
         options:
           format: yyyy-MM-dd
 
+      - name: hero
+        label: Hero image
+        type: image
+        description: "Optional. Also used as the Open Graph image for LinkedIn."
+
       - name: readTime
         label: Read time
         type: string
@@ -90,6 +102,116 @@ content:
         label: Body
         type: text
         description: "Markdown. Start with your first point - the lede renders above this automatically."
+
+  - name: authorities
+    label: Authorities
+    type: collection
+    path: src/content/authorities
+    filename: "{fields.slug}.md"
+    view:
+      fields: [title, citation, jurisdiction, archived]
+      primary: title
+      sort: [decided, title]
+      default:
+        sort: decided
+        order: desc
+    fields:
+      - name: title
+        label: Case or statute name
+        type: string
+        required: true
+      - name: slug
+        label: URL slug
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+        description: "Permanent. Case name plus citation, e.g. balsamides-v-protameen-160-nj-352. Never change after publishing - it is the URL every article links to."
+      - name: citation
+        label: Official citation
+        type: string
+        required: true
+        description: "Official reporter first, regional parallel second."
+      - name: court
+        label: Court
+        type: string
+      - name: decided
+        label: Date decided
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: docket
+        label: Docket number
+        type: string
+      - name: jurisdiction
+        label: Jurisdiction
+        type: select
+        options:
+          values: [NJ, NY, DE, Federal, Other]
+      - name: precedential
+        label: Precedential
+        type: boolean
+        default: true
+        description: "Off for unpublished opinions. R. 1:36-3 in New Jersey."
+      - name: holding
+        label: Holding
+        type: text
+        options:
+          maxlength: 480
+        description: "One or two sentences stating what the case decides. This is the citable unit."
+      - name: topics
+        label: Topics
+        type: select
+        options:
+          multiple: true
+          creatable: true
+          values:
+            - "Fair Value Standard"
+            - "Discounts & Premiums"
+            - "Oppression"
+            - "Deadlock"
+            - "Buy-Sell"
+            - "Fiduciary Duty"
+            - "Dissolution"
+            - "Goodwill"
+            - "Appraisal"
+      - name: headnoteApproved
+        label: Headnote approved
+        type: boolean
+        default: false
+        description: "Off until you have signed off on the headnote text. Pages do not publish while this is off."
+      - name: archived
+        label: Local copy archived
+        type: boolean
+        default: false
+        description: "Off means no official copy was obtainable. The page falls back to the external source link."
+      - name: format
+        label: Stored format
+        type: select
+        options:
+          values: [pdf, text]
+      - name: localCopy
+        label: Local copy path
+        type: string
+        description: "e.g. /authorities/balsamides-v-protameen-160-nj-352.pdf"
+      - name: sourceUrl
+        label: Source URL
+        type: string
+      - name: sourceName
+        label: Source name
+        type: string
+      - name: retrieved
+        label: Date retrieved
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: sha1
+        label: SHA-1 of stored file
+        type: string
+        description: "Provenance. Lets a verification pass detect an altered file."
+      - name: body
+        label: Headnote
+        type: text
+        description: "Your analysis: what it decides, what it means for an owner, where it sits against related authority. Two to four paragraphs. Required before publishing."
 
   - name: site
     label: Site identity
