@@ -10,13 +10,13 @@ precedential: true
 holding: "Goodwill is reputation likely to generate future business, and the goodwill of a professional practice is subject to equitable distribution where it has value as a going concern beyond the practitioner's personal earning capacity."
 topics: ["Goodwill", "Fair Value Standard"]
 headnoteApproved: false
-archived: false
+archived: true
 format: text
-localCopy: ""
+localCopy: /authorities/dugan-v-dugan-92-nj-423.txt
 sourceUrl: "https://www.courtlistener.com/opinion/1954557/dugan-v-dugan/"
 sourceName: "CourtListener"
 retrieved: 2026-08-07
-sha1: ""
+sha1: "cfeac6b9b03ecf6855ff50dadd9396c4ff47a722"
 ---
 
 *Dugan* is filed under matrimonial law and belongs in every business divorce practitioner's working set, because it draws the line that determines how much of a professional practice is worth anything at all. Goodwill is reputation likely to generate future business. The distributable portion is the goodwill that exists as a going concern independent of the individual — value a successor could buy and keep.

@@ -10,13 +10,13 @@ precedential: true
 holding: "Fair value measures the minority's proportionate share of enterprise value. A discount for the shares' minority status may not be applied, and the categorical rule does not bend to the facts of a particular holding."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
 headnoteApproved: false
-archived: false
+archived: true
 format: text
-localCopy: ""
-sourceUrl: "https://law.justia.com/cases/new-york/court-of-appeals/1995/87-n-y-2d-161-0.html"
-sourceName: "Justia"
+localCopy: /authorities/friedman-v-beway-realty-87-ny2d-161.txt
+sourceUrl: "https://www.courtlistener.com/opinion/2093064/friedman-v-beway-realty-corp/"
+sourceName: "CourtListener"
 retrieved: 2026-08-07
-sha1: ""
+sha1: "ae49612a4248ea0630c39dd9fb72ae0d69d4f5f9"
 ---
 
 Nine family-owned close corporations, each holding a single piece of New York City real estate, transferred their property to a new partnership over minority objection. The corporations' expert valued the dissenters' shares off net asset value and then took nearly ten percent off the top. On cross he conceded what that adjustment actually represented: the minority status of the shares. The trial court eliminated it, and the Court of Appeals affirmed the principle.

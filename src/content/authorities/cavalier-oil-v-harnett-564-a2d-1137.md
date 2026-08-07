@@ -10,13 +10,13 @@ precedential: true
 holding: "Appraisal values the corporation itself as an operating entity, not a fraction of its shares as they exist in a particular holder's hands. The dissenter receives his proportionate interest in a going concern, and no minority or marketability discount applies at the shareholder level."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
 headnoteApproved: false
-archived: false
+archived: true
 format: text
-localCopy: ""
-sourceUrl: "https://law.justia.com/cases/delaware/supreme-court/1989/564-a-2d-1137-5.html"
-sourceName: "Justia"
+localCopy: /authorities/cavalier-oil-v-harnett-564-a2d-1137.txt
+sourceUrl: "https://www.courtlistener.com/opinion/1487730/cavalier-oil-corp-v-harnett/"
+sourceName: "CourtListener"
 retrieved: 2026-08-07
-sha1: ""
+sha1: "781b06839f86a39f4ef77b4bfd2a04fe54334bb2"
 ---
 
 Harnett held one and a half percent, and Cavalier argued that the only way he could ever have realized value was to sell into a market that would price his stake as the powerless sliver it was. The Court called that a misperception of the appraisal remedy. Appraisal does not reconstruct a hypothetical sale. It assumes the shareholder was willing to keep his position, however slight, had the merger not occurred, and asks what the enterprise was worth.

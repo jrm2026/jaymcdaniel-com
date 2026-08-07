@@ -10,13 +10,13 @@ precedential: true
 holding: "A marketability discount cannot be used unfairly by controlling or oppressing shareholders to benefit themselves at the expense of the minority. Where the oppressor is the seller and the oppressed shareholder is the buyer, the discount applies, because the buyer will bear the company's illiquidity on eventual resale."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Oppression"]
 headnoteApproved: false
-archived: false
-format: pdf
-localCopy: ""
-sourceUrl: "https://law.justia.com/cases/new-jersey/supreme-court/1999/a-27-98-opn.html"
-sourceName: "Justia"
+archived: true
+format: text
+localCopy: /authorities/balsamides-v-protameen-160-nj-352.txt
+sourceUrl: "https://www.courtlistener.com/opinion/1897561/balsamides-v-protameen-chemicals-inc/"
+sourceName: "CourtListener"
 retrieved: 2026-08-07
-sha1: ""
+sha1: "ce2ad99052951076bafc13469525224c9f148ada"
 ---
 
 Two fifty percent owners of a chemical distributor stopped being able to work together, and the trial court ordered the oppressor to sell to the oppressed. The question that reached the Supreme Court was whether the buyer had to pay an undiscounted price for a company that would remain illiquid in his hands. He did not. Perle was the oppressor and the seller; Balsamides was the oppressed and the buyer; and requiring Balsamides to pay full value would have made him absorb the entire marketability haircut when he eventually sold, while rewarding the man whose conduct forced the buyout.

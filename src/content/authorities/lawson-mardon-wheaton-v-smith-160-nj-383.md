@@ -10,13 +10,13 @@ precedential: true
 holding: "A marketability discount should not be applied in determining the fair value of a dissenting shareholder's stock absent extraordinary circumstances. The record was reopened to consider an acquisition price that postdated the valuation date by more than four years."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
 headnoteApproved: false
-archived: false
-format: pdf
-localCopy: ""
+archived: true
+format: text
+localCopy: /authorities/lawson-mardon-wheaton-v-smith-160-nj-383.txt
 sourceUrl: "https://www.courtlistener.com/opinion/1897627/lawson-mardon-wheaton-inc-v-smith/"
 sourceName: "CourtListener"
 retrieved: 2026-08-07
-sha1: ""
+sha1: "ea8ed26483471e087586656e3721f5d34b8a2c69"
 ---
 
 The corporation restructured to restrict future public sales of its stock, which triggered dissenters' rights, and then sought to buy the dissenters out at a discount for lack of marketability. The Court held the discount inapplicable absent extraordinary circumstances. Applying it would enrich the majority, penalize the minority for invoking the very statute meant to protect them, and encourage squeeze-outs — a set of incentives the appraisal remedy exists to prevent.
