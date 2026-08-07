@@ -125,7 +125,7 @@ aside h3{font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transf
 
 /* ---------- footer ---------- */
 footer.site{background:#20242c;color:#b9b3a8;font-family:var(--sans)}
-footer.site .inner{max-width:1000px;margin:0 auto;padding:40px 34px 30px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:36px}
+footer.site .inner{max-width:1000px;margin:0 auto;padding:40px 34px 30px;display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:32px}
 footer.site h5{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin:0 0 14px}
 footer.site .fmark{font-family:var(--serif);font-size:22px;letter-spacing:.18em;text-transform:uppercase;color:#fff;margin:0 0 10px}
 footer.site p{font-size:13px;line-height:1.6;margin:0 0 8px}
