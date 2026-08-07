@@ -1,0 +1,118 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const all = await getCollection('authorities');
+  // Unapproved headnotes never reach the build.
+  const live = all.filter((e) => e.data.headnoteApproved);
+  return live.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const d = entry.data;
+const { Content } = await render(entry);
+
+const fmt = (v?: Date) =>
+  v ? new Date(v).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${d.title}, ${d.citation}`,
+    description: d.holding ?? d.citation,
+    author: { '@type': 'Person', name: SITE.authorName },
+    publisher: { '@type': 'Organization', name: SITE.firm },
+    about: {
+      '@type': 'Legislation',
+      name: `${d.title}, ${d.citation}`,
+      legislationJurisdiction: d.jurisdiction,
+      ...(d.decided ? { datePublished: new Date(d.decided).toISOString().slice(0, 10) } : {}),
+    },
+    isBasedOn: d.sourceUrl,
+    url: new URL(`/authorities/${entry.id}/`, SITE.url).href,
+  },
+];
+---
+
+<BaseLayout
+  title={`${d.title}, ${d.citation}`}
+  description={d.holding ?? `${d.title}, ${d.citation}.`}
+  current="authorities"
+  ogType="article"
+  jsonld={jsonld}
+>
+  <article class="authority">
+    <p class="kicker"><a href="/authorities/">Authorities</a></p>
+
+    <h1>{d.title}</h1>
+    <p class="citation">{d.citation}</p>
+
+    <dl class="meta">
+      {d.court && (<><dt>Court</dt><dd>{d.court}</dd></>)}
+      {d.decided && (<><dt>Decided</dt><dd>{fmt(d.decided)}</dd></>)}
+      {d.docket && (<><dt>Docket</dt><dd>{d.docket}</dd></>)}
+      {!d.precedential && (<><dt>Status</dt><dd>Unpublished; not precedential</dd></>)}
+    </dl>
+
+    {d.holding && (
+      <p class="holding">{d.holding}</p>
+    )}
+
+    <div class="copy">
+      {d.archived && d.localCopy ? (
+        <p>
+          <a class="download" href={d.localCopy}>
+            Read the {d.format === 'text' ? 'opinion' : 'opinion (PDF)'}
+          </a>
+        </p>
+      ) : (
+        <p class="pending">
+          A local copy is not yet archived.
+          {d.sourceUrl && (<> The opinion is available <a href={d.sourceUrl} rel="nofollow">here</a>.</>)}
+        </p>
+      )}
+
+      {d.archived && d.sourceUrl && (
+        <p class="provenance">
+          Retrieved from {d.sourceName ?? 'the issuing source'}
+          {d.retrieved && <> on {fmt(d.retrieved)}</>}. <a href={d.sourceUrl} rel="nofollow">Original source</a>.
+        </p>
+      )}
+    </div>
+
+    <div class="headnote">
+      <Content />
+    </div>
+
+    {d.topics.length > 0 && (
+      <p class="topics">
+        {d.topics.map((t) => <span class="topic">{t}</span>)}
+      </p>
+    )}
+
+    <p class="disclaimer">
+      Opinions and statutes reproduced here are works of government and are not subject to copyright.
+      The commentary is my own and is not legal advice.
+    </p>
+  </article>
+</BaseLayout>
+
+<style>
+  .authority { max-width: 44rem; }
+  .kicker { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
+  .citation { font-size: 1.05rem; opacity: .8; margin-top: -.4rem; }
+  .meta { display: grid; grid-template-columns: max-content 1fr; gap: .2rem 1.2rem; font-size: .9rem; margin: 1.4rem 0; }
+  .meta dt { opacity: .6; }
+  .meta dd { margin: 0; }
+  .holding { border-left: 3px solid currentColor; padding-left: 1rem; font-size: 1.08rem; }
+  .copy { margin: 1.6rem 0; }
+  .download { font-weight: 600; }
+  .provenance, .pending { font-size: .85rem; opacity: .75; }
+  .headnote { margin-top: 2rem; }
+  .topics { margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: .4rem; }
+  .topic { font-size: .78rem; border: 1px solid currentColor; border-radius: 999px; padding: .15rem .7rem; opacity: .7; }
+  .disclaimer { margin-top: 3rem; font-size: .8rem; opacity: .6; }
+</style>
