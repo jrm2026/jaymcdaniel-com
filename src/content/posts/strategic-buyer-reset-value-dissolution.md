@@ -16,7 +16,7 @@ tags:
   - Fair Value Standard
 date: 2026-07-21
 readTime: 9 min read
-draft: false
+draft: true
 ---
 # Strategic Buyer or Hypothetical Buyer: Who Sets Fair Value in a Buyout?
 
