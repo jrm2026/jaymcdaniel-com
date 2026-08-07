@@ -11,7 +11,7 @@ export const SITE = {
   authorCreds: 'Esq. · CVA · CEPA',
   firm: 'Scarinci Hollenbeck',
   offices: 'Little Falls & Red Bank, NJ',
-  phone: '(973) 602-3915',
+  phone: '(201) 896-7042',
   url: 'https://jaymcdaniel.com',
   newsletter: 'The Valuation Letter', // Section 9 open decision — confirm/replace.
   // sameAs links for the Person schema (Section 8). Fill real URLs before launch.
