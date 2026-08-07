@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const all = await getCollection('authorities');
+const live = all
+  .filter((e) => e.data.headnoteApproved)
+  .sort((a, b) => {
+    const av = a.data.decided ? new Date(a.data.decided).getTime() : 0;
+    const bv = b.data.decided ? new Date(b.data.decided).getTime() : 0;
+    return bv - av;
+  });
+
+const order = ['NJ', 'NY', 'DE', 'Federal', 'Other'] as const;
+const label: Record<string, string> = {
+  NJ: 'New Jersey',
+  NY: 'New York',
+  DE: 'Delaware',
+  Federal: 'Federal',
+  Other: 'Other jurisdictions',
+};
+const grouped = order
+  .map((j) => ({ j, items: live.filter((e) => e.data.jurisdiction === j) }))
+  .filter((g) => g.items.length > 0);
+---
+
+<BaseLayout
+  title="Authorities"
+  description="Cases and statutes cited across this site, with the official opinion and a note on what each one decides."
+  current="authorities"
+>
+  <h1>Authorities</h1>
+  <p class="intro">
+    The cases and statutes I cite, each with the official opinion and a short note on what it
+    decides and why it matters to an owner of a closely held business.
+  </p>
+
+  {grouped.map(({ j, items }) => (
+    <section>
+      <h2>{label[j]}</h2>
+      <ul class="list">
+        {items.map((e) => (
+          <li>
+            <a href={`/authorities/${e.id}/`}>
+              <span class="name">{e.data.title}</span>
+              <span class="cite">{e.data.citation}</span>
+            </a>
+            {e.data.holding && <p class="holding">{e.data.holding}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>
+
+<style>
+  .intro { max-width: 40rem; }
+  .list { list-style: none; padding: 0; }
+  .list li { margin: 0 0 1.6rem; }
+  .list a { text-decoration: none; display: block; }
+  .name { font-weight: 600; font-style: italic; }
+  .cite { display: block; font-size: .88rem; opacity: .7; }
+  .holding { margin: .35rem 0 0; font-size: .92rem; max-width: 42rem; }
+</style>
+  
