@@ -8,16 +8,15 @@ precedential: true
 holding: "After a qualifying dissolution petition, the corporation or other shareholders may make an irrevocable election to purchase the petitioner's shares at fair value, ordinarily measured as of the day before the petition was filed and without value created by the filing itself."
 topics: ["Oppression", "Buyout Remedy", "Fair Value Standard"]
 headnoteApproved: true
-archived: false
+archived: true
 format: text
-localCopy: ""
+localCopy: "/authorities/ny-bcl-1118.txt"
 sourceUrl: "https://www.nysenate.gov/legislation/laws/BSC/1118"
 sourceName: "New York State Senate"
 retrieved: 2026-08-07
-sha1: ""
+sha1: "b54ee7c187903fe8aadb21eb8415c5d3861bdc49"
 ---
 
 Section 1118 permits the corporation or one or more shareholders to elect to purchase the shares of a shareholder who has petitioned for dissolution under specified provisions of the Business Corporation Law. The election ordinarily must be made within ninety days after the petition is filed and, once made, is irrevocable unless the court allows withdrawal on equitable terms.
 
 If the parties cannot agree, the court stays the dissolution proceeding and determines fair value as of the day before the petition was filed, excluding any value arising from the filing itself. The election converts a dissolution dispute into a compulsory valuation proceeding, but the statute does not make the petitioner's shares equivalent to a freely marketed minority block. *Friedman v. Beway Realty Corp.* supplies the controlling rule against minority discounts.
-
