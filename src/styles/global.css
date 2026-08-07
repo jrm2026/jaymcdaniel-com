@@ -131,6 +131,9 @@ footer.site .fmark{font-family:var(--serif);font-size:22px;letter-spacing:.18em;
 footer.site p{font-size:13px;line-height:1.6;margin:0 0 8px}
 footer.site a{color:#b9b3a8;text-decoration:none;display:block;font-size:13px;padding:4px 0}
 footer.site a:hover{color:#fff}
+.attorney-advertising{max-width:1000px;margin:0 auto;padding:20px 34px 18px;border-top:1px solid #34383f;color:#9f9a91}
+.attorney-advertising h5{margin-bottom:8px}
+footer.site .attorney-advertising p{font-size:11.5px;line-height:1.65;margin:0}
 .redirect-note{font-size:11.5px;color:#7d786f;border-top:1px solid #34383f;margin-top:8px;padding:16px 34px;text-align:center;font-style:italic}
 
 /* ---------- pillar landing headnote ---------- */
