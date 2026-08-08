@@ -5,8 +5,11 @@ import { SITE, PILLARS } from '../lib/site';
   <div class="inner">
     <div>
       <div class="fmark">{SITE.name}</div>
-      <p>Counsel to closely held businesses.<br />{SITE.firm} · {SITE.offices}</p>
-      <p style="margin-top:10px">{SITE.phone}</p>
+      <p>Counsel to closely held businesses.</p>
+      <p class="firm-name">
+        <a href={SITE.firmUrl} target="_blank" rel="noopener noreferrer">{SITE.firmLegalName}</a>
+      </p>
+      <a class="profile-link" href={SITE.profileUrl} target="_blank" rel="noopener noreferrer">Attorney profile &rarr;</a>
     </div>
     <div>
       <h5>Pillars</h5>
@@ -17,8 +20,19 @@ import { SITE, PILLARS } from '../lib/site';
       <a href="/subscribe/">{SITE.newsletter}</a>
       <a href="https://www.youtube.com/@CloselyHeld">@CloselyHeld · YouTube</a>
       <a href="https://www.linkedin.com/in/jayrmcdaniel">LinkedIn</a>
+      <a href={SITE.profileUrl} target="_blank" rel="noopener noreferrer">Firm profile</a>
       <a href="/authorities/">Authorities</a>
     </div>
+  </div>
+
+  <div class="offices" aria-label="Office locations">
+    {SITE.firmOffices.map((o) => (
+      <address class="office">
+        <span class="office-city">{o.city}</span>
+        {o.lines.map((l) => <span>{l}</span>)}
+        {o.phone && <a href={`tel:${o.phone.replace(/[^0-9]/g, '')}`}>{o.phone}</a>}
+      </address>
+    ))}
   </div>
   <div class="attorney-advertising" aria-label="Attorney advertising disclaimer">
     <h5>Attorney Advertising</h5>

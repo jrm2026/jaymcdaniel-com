@@ -1,4 +1,5 @@
 ---
+import { SITE } from '../lib/site';
 // The single hard CTA (build brief, Section 3). Appears once per page.
 ---
 <section class="engage" aria-label="Work with Jay McDaniel">
@@ -7,6 +8,6 @@
       <h4>Have a valuation problem you can't hand to just anyone?</h4>
       <p>I serve as special valuation counsel to owners and their attorneys &mdash; in disputes, transactions, matrimonial matters, and tax controversies. One conversation tells us both whether it's a fit.</p>
     </div>
-    <a href="/work-with-me/" class="cta">Schedule a strategy call</a>
+    <a href={SITE.bookingUrl} class="cta" target="_blank" rel="noopener noreferrer">Schedule a strategy call</a>
   </div>
 </section>

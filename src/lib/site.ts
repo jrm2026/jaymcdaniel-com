@@ -10,7 +10,20 @@ export const SITE = {
   authorByline: 'Jay R. McDaniel, CVA, CEPA',
   authorCreds: 'Esq. · CVA · CEPA',
   firm: 'Scarinci Hollenbeck',
+  firmLegalName: 'Scarinci & Hollenbeck, LLC',
+  firmUrl: 'https://scarincihollenbeck.com',
+  profileUrl: 'https://scarincihollenbeck.com/attorneys/jay-r-mcdaniel',
+  // Outlook Bookings page for the "Schedule a strategy call" CTA.
+  bookingUrl:
+    'https://outlook.office.com/bookwithme/user/e3152abf19db458089a2e936b0082b49@sh-law.com/meetingtype/GAHEBwyjuU6fohpaycDa7w2?anonymous&ismsaljsauthenabled&ep=mlink',
   offices: 'Little Falls & Red Bank, NJ',
+  // Firm offices for the footer identification block. Little Falls is the main
+  // office and carries the firm telephone; the others show address only.
+  firmOffices: [
+    { city: 'Little Falls, NJ', lines: ['150 Clove Road, 9th Floor', 'Little Falls, NJ 07424'], phone: '201-896-4100' },
+    { city: 'Red Bank, NJ', lines: ['331 Newman Springs Road', 'Building 3, Suite 310', 'Red Bank, NJ 07701-5692'], phone: '' },
+    { city: 'New York, NY', lines: ['519 8th Avenue, 25th Floor', 'New York, NY 10018'], phone: '' },
+  ],
   phone: '(201) 896-7042',
   url: 'https://jaymcdaniel.com',
   newsletter: 'The Valuation Letter', // Section 9 open decision — confirm/replace.

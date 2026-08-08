@@ -130,6 +130,6 @@ Before the valuation date, and before the majority elects a buyout. Interest tha
 
 ---
 
-**If you are litigating a business divorce or buyout and the number is the case, I serve as special valuation counsel to owners and their attorneys.** [Schedule a strategy call](/work-with-me/)
+**If you are litigating a business divorce or buyout and the number is the case, I serve as special valuation counsel to owners and their attorneys.** [Schedule a strategy call](https://outlook.office.com/bookwithme/user/e3152abf19db458089a2e936b0082b49@sh-law.com/meetingtype/GAHEBwyjuU6fohpaycDa7w2?anonymous&ismsaljsauthenabled&ep=mlink)
 
 *Jay R. McDaniel, Esq., CVA, CEPA, is a partner at Scarinci Hollenbeck and special valuation counsel to owners of closely held businesses. This article is for general information and is not legal advice. Attorney advertising.*
