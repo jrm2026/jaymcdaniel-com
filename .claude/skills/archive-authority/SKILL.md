@@ -1,6 +1,6 @@
 ---
 name: archive-authority
-description: Use when Jay asks to archive a case, statute, or ruling cited in an article; to build or repair the /authorities/ archive on jaymcdaniel.com; to replace external citation links with internal ones; or to check the archive for missing or broken authorities. Downloads the official copy of an opinion, stores it in the repo, records provenance, and generates the authority page.
+description: Use when Jay asks to archive a case, statute, or ruling cited in an article; to build or repair the /authorities/ archive on jaymcdaniel.com; to replace external citation links with internal ones; or to check the archive for missing or broken authorities. Writes the authority page and its headnote, records provenance, and — only when the public source's stability is questionable — stores a local copy of the opinion in the repo.
 ---
 
 # Archiving legal authorities to jaymcdaniel.com
@@ -17,11 +17,50 @@ the underlying document.
 **Note-first.** The headnote is the deliverable and is required for every
 authority. It is the original, indexable content that builds the site's
 authority; the underlying PDF is a commodity available on a dozen sites. Hosting
-a local copy is *optional*: do it for the few tentpole authorities worth insuring
-against link rot, and otherwise let the page fall back to a link to a free public
-source. Do not expend effort chasing a downloadable copy for every citation — an
+a local copy is the *exception, not the rule*: reserve it for the few citations
+whose public source is genuinely at risk of going dark (see "When to archive
+locally" below), and otherwise let the page link out to a free public source. An
 approved headnote with a working public-source link is a complete, publishable
-page. Never create a hosted copy without a headnote wrapped around it.
+page — do not treat the absence of a hosted copy as an unfinished authority, and
+do not expend effort chasing a downloadable copy for a citation that already
+resolves to a stable source. Never create a hosted copy without a headnote
+wrapped around it.
+
+## When to archive locally
+
+The point of a local copy is insurance against link rot. Most citations don't
+need it, because the sources this practice cites don't rot.
+
+**Do not archive from a stable source.** Justia, CourtListener, court sites
+(njcourts.gov, courts.delaware.gov, nycourts.gov, and the federal courts), and
+official statute and government sites (state legislature and code sites,
+delcode.delaware.gov, nysenate.gov, irs.gov) do not break links. Over 20-plus
+years, the *only* citations that vanished from the predecessor site
+(BusinessDivorce / The Voice of the Lawyer) were the two whose hosts went out of
+business — Casetext, which shut down, and the Rutgers–Camden case archive, which
+stopped operating. Everything anchored to a major public source held. For a
+citation that resolves to one of these sources, record the public-source link in
+`sourceUrl`, set `archived: false`, and move on. That is the normal, expected,
+finished state — not a failure or a gap to backfill later.
+
+**Archive locally only when the source's stability is questionable**, i.e. when
+there is a specific reason to doubt the link will still resolve in ten years:
+
+- the only copy lives on **another attorney's blog or firm site**, a personal
+  page, or any host without an institutional commitment to keep it up;
+- the source is a **project or startup without a sufficient operating history** —
+  the kind of host Casetext was before it folded — where nothing guarantees it
+  will still be there next year;
+- the source is already **known to be winding down, defunct, or unmaintained**,
+  or the document exists nowhere but there.
+
+When one of these applies, and only then, work the resolution order below to
+obtain an official copy, store it, and set `archived: true`. **When in doubt,
+link out.** Archive only on a clear, specific stability concern — not on a vague
+one, and not out of caution. Do not stop to ask Jay whether a borderline host
+qualifies; default to the link-out and note it in the run report. The headnote,
+not the hosted PDF, is what makes the page work — a link-only authority with an
+approved headnote is fully doing its job.
 
 ## Hard rules
 
@@ -61,8 +100,10 @@ decisions; match the date and the disposition, not just the docket number.
 
 ## Resolution order
 
-Work down the list. Stop at the first source that yields a downloadable official
-copy meeting the hard rules.
+Applies only once "When to archive locally" says a local copy is warranted. For
+everything else, link to the public source and set `archived: false` — do not run
+this list. When a copy *is* warranted, work down it and stop at the first source
+that yields a downloadable official copy meeting the hard rules.
 
 1. **CourtListener.** Query the opinions endpoint and read `download_url` first —
    this is the URL CourtListener originally harvested, and for modern cases it is
@@ -133,8 +174,26 @@ sha1: "<hash of the stored file>"
 ---
 ```
 
-`sourceUrl`, `retrieved`, and `sha1` are the provenance record. They let Jay
-establish later what he archived, from where, and on what date, and let a
+The block above shows the **archived** shape, so every field is documented in
+one place; `format`, `localCopy`, and `sha1` describe the hosted file and apply
+only when `archived: true`. Under the policy in "When to archive locally," a
+citation with a stable public source like the Justia link shown here would
+normally *not* be archived — it would be the **link-only** shape instead:
+
+```yaml
+archived: false
+sourceUrl: "https://law.justia.com/cases/new-jersey/supreme-court/1999/a-27-98-opn.html"
+sourceName: "Justia"
+retrieved: 2026-08-07
+# no format, localCopy, or sha1 — the page links out to the stable source
+```
+
+This is a complete, publishable page. Reach for the archived shape only when the
+source is shaky enough to warrant a local copy.
+
+`sourceUrl` and `retrieved` are on every page; `sha1` is required whenever a
+local copy exists. Together they are the provenance record — they let Jay
+establish later what he relied on, from where, and on what date, and let a
 verification pass detect whether a stored file has been altered. Do not omit them.
 
 The page body is Jay's headnote: what the case decides, what it means for an
@@ -217,7 +276,8 @@ a pending question will come back yes.
 
 ## Headnote signoff
 
-The workflow is: archive the document, draft the headnote, present it, wait.
+The workflow is: settle the source (link out, or archive if the source is
+shaky), draft the headnote, present it, wait.
 
 Present drafts as a batch with the slug, citation, proposed `holding` line, and the
 full body text, so Jay can read and mark them in one pass. Note anything you were
@@ -232,15 +292,21 @@ If a later correction is needed, propose it and wait again.
 
 At the end of a run, report:
 
-- authorities archived, with slug and source
-- authorities that fell through every step, with the last URL tried and the reason
+- authorities archived, with slug and source, and the stability reason that
+  warranted the local copy
+- authorities deliberately left link-only, with the stable source they point to
+  (this is an expected outcome, not a gap)
+- authorities that *should* have been archived (source judged shaky) but fell
+  through every step, with the last URL tried and the reason — these are the real
+  gaps
 - any file rejected under the hard rules, and which rule
 - any citation whose reporter or date could not be verified
 - headnotes drafted and awaiting signoff
 - questions raised for Jay and still open, with what is blocked behind each
 
-Never silently skip. An unarchived authority is a known gap; an unreported one is
-a defect.
+Never silently skip. A shaky source you could not archive is a known gap; an
+unreported one is a defect. A citation deliberately left pointing to a stable
+public source is neither.
 
 ## Scope discipline
 
@@ -253,8 +319,14 @@ hundred bare PDFs, and the maintenance obligation of the second is real.
 Run periodically:
 
 - confirm every `localCopy` file exists and its sha1 matches
-- confirm every `sourceUrl` still resolves; if not, the local copy is now the
-  only copy and the page should say so
+- confirm every `sourceUrl` still resolves. For an archived page, a dead source
+  means the local copy is now the only copy and the page should say so. For a
+  link-only page (`archived: false`), a dead source is the trigger to archive
+  now — obtain and store a copy while the document can still be found, or if it
+  cannot, report it as a broken authority.
 - confirm every case citation in every article resolves to an authority page or
   to a deliberate external link
-- re-check `archived: false` entries to see whether a source has become available
+- do not re-run the resolution order on `archived: false` entries whose stable
+  source still resolves — a deliberate link-out is not a pending download. Only
+  revisit an entry whose source has died or whose host has shown signs of
+  winding down.
