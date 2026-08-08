@@ -17,7 +17,6 @@ date: 2026-07-08
 readTime: 8 min read
 draft: false
 ---
-#  Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case
 
 Fair market value prices the block of stock. Fair value prices a proportionate share of the enterprise. Between those two definitions sits thirty to fifty percent of the money, and the question is usually settled — by statute, by contract, or by default — before either expert opens a workbook.
 

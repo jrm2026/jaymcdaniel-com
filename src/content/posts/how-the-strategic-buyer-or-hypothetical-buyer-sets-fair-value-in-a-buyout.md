@@ -13,7 +13,6 @@ date: 2026-08-06
 readTime: 9 min read
 draft: false
 ---
-# Strategic Buyer or Hypothetical Buyer: Who Sets Fair Value in a Buyout?
 
 Fair value is not fair market value. It measures the enterprise as a going concern, not the price a minority block would fetch from a stranger. That distinction opens the door to the strategic buyer, the acquirer who pays more because the company is worth more inside his own. Whether a court walks through the door depends on the record.
 
