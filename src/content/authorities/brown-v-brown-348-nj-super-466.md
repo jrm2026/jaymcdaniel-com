@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "The fair-value rule barring marketability and minority discounts, drawn from Balsamides and Lawson Mardon Wheaton, applies to the valuation of a closely held business interest for equitable distribution in a divorce; neither discount reduces the marital value of the interest."
 topics: ["Discounts & Premiums", "Fair Value Standard", "Matrimonial"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 localCopy: ""
 sourceUrl: "https://www.courtlistener.com/opinion/2305630/brown-v-brown/"

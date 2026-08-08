@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "In the buyout of a 50% LLC member where the remaining member acquires control and no sale to an outside buyer is contemplated, the interest is valued as its worth to the surviving owner — without marketability or minority discounts."
 topics: ["Discounts & Premiums", "Fair Value Standard", "Business Divorce"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 localCopy: ""
 sourceUrl: "https://www.courtlistener.com/opinion/1910413/denike-v-cupo/"

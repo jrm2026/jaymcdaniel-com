@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: false
 holding: "In a long-running family business oppression case, a marketability discount was sustained against the selling shareholder whose own conduct had driven the litigation — illustrating New Jersey's equitable, fact-driven approach to discounts in a fair-value buyout."
 topics: ["Discounts & Premiums", "Fair Value Standard", "Oppression"]
-headnoteApproved: false
+headnoteApproved: true
 archived: true
 format: text
 localCopy: "/authorities/wisniewski-v-walsh-2015-nj-super-unpub-lexis-3001.txt"
