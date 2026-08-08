@@ -1,20 +1,37 @@
 ---
 title: "Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case"
-answerFirst: Marketability and minority discounts are where many closely held
-  disputes are actually won or lost.  Which standard governs is the first fight.
-  Fair market value generally allows those discounts; fair value, the standard
-  in most oppression and dissenters'-rights cases, usually does not — and that
-  single choice will swing the number by a third or more.
-dek: Discounts in value for lack of marketability and the minority's lack of
-  control are where many closely held valuation disputes are actually won or
-  lost. Which standard governs is the first fight.
+slug: fair-value-v-fair-market-value-understand-the-differneces
+answerFirst: Marketability and minority discounts are where closely held
+  valuation disputes may be won or lost.  Which standard governs is the first
+  fight. Fair market value generally allows those discounts; fair value, the
+  standard in most oppression and dissenters'-rights cases, usually does not —
+  and that single choice will swing the number by a third or more.
+dek: Discounts in value for lack of marketability and for the minority's lack of
+  control are where closely held valuation disputes may be won or lost. Which
+  standard governs is the first fight.
 pillar: Business Divorce
 tags:
-  - Fiduciary Duty
+  - Valuation Methodology
+  - Estate & Gift
+  - Tax Controversy
+  - Discounts & Premiums
+  - Fair Value Standard
 date: 2026-06-23
 readTime: 6 min read
 draft: false
 ---
+---
+title: "Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case"
+slug: fair-value-vs-fair-market-value-discounts
+pillar: Valuation
+tags: [Business Divorce, Fair Value Standard, Discounts & Premiums, Matrimonial]
+author: "Jay R. McDaniel, Esq., CVA, CEPA"
+date: 2026-08-06
+dateModified: 2026-08-06
+readTime: "8 min read"
+description: "Fair value and fair market value are different standards producing different numbers. Which one governs is usually decided before the appraisal begins, and it decides the case."
+---
+
 # Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case
 
 Fair market value prices the block of stock. Fair value prices a proportionate share of the enterprise. Between those two definitions sits thirty to fifty percent of the money, and the question is usually settled — by statute, by contract, or by default — before either expert opens a workbook.
@@ -104,6 +121,6 @@ The court, on the statute and the agreement — but in practice the parties fram
 
 ---
 
-**If you are litigating a business divorce and the standard of value is unsettled, I serve as special valuation counsel to owners and their attorneys.** [Schedule a strategy call](https://outlook.office.com/bookwithme/user/e3152abf19db458089a2e936b0082b49@sh-law.com/meetingtype/GAHEBwyjuU6fohpaycDa7w2?anonymous&ismsaljsauthenabled&ep=mlink)
+**If you are litigating a business divorce and the standard of value is unsettled, I serve as special valuation counsel to owners and their attorneys.** [Schedule a strategy call](/work-with-me/)
 
 *Jay R. McDaniel, Esq., CVA, CEPA, is a partner at Scarinci Hollenbeck and special valuation counsel to owners of closely held businesses. This article is for general information and is not legal advice. Attorney advertising.*
