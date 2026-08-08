@@ -1,37 +1,3 @@
----
-title: "Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case"
-slug: fair-value-v-fair-market-value-understand-the-differneces
-answerFirst: Marketability and minority discounts are where closely held
-  valuation disputes may be won or lost.  Which standard governs is the first
-  fight. Fair market value generally allows those discounts; fair value, the
-  standard in most oppression and dissenters'-rights cases, usually does not —
-  and that single choice will swing the number by a third or more.
-dek: Discounts in value for lack of marketability and for the minority's lack of
-  control are where closely held valuation disputes may be won or lost. Which
-  standard governs is the first fight.
-pillar: Business Divorce
-tags:
-  - Valuation Methodology
-  - Estate & Gift
-  - Tax Controversy
-  - Discounts & Premiums
-  - Fair Value Standard
-date: 2026-06-23
-readTime: 6 min read
-draft: false
----
----
-title: "Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case"
-slug: fair-value-vs-fair-market-value-discounts
-pillar: Valuation
-tags: [Business Divorce, Fair Value Standard, Discounts & Premiums, Matrimonial]
-author: "Jay R. McDaniel, Esq., CVA, CEPA"
-date: 2026-08-06
-dateModified: 2026-08-06
-readTime: "8 min read"
-description: "Fair value and fair market value are different standards producing different numbers. Which one governs is usually decided before the appraisal begins, and it decides the case."
----
-
 # Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case
 
 Fair market value prices the block of stock. Fair value prices a proportionate share of the enterprise. Between those two definitions sits thirty to fifty percent of the money, and the question is usually settled — by statute, by contract, or by default — before either expert opens a workbook.
