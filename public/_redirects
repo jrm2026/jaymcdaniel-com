@@ -11,3 +11,7 @@
 # The newsletter signup page was replaced by a direct contact page.
 /subscribe   /contact/   301
 /subscribe/  /contact/   301
+
+# Fix a slug typo ("differneces" -> "differences"); keep the old URL working.
+/fair-value-v-fair-market-value-understand-the-differneces   /fair-value-v-fair-market-value-understand-the-differences/   301
+/fair-value-v-fair-market-value-understand-the-differneces/  /fair-value-v-fair-market-value-understand-the-differences/   301

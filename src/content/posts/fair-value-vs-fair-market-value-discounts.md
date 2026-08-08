@@ -1,6 +1,6 @@
 ---
 title: "Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case"
-slug: fair-value-v-fair-market-value-understand-the-differneces
+slug: fair-value-v-fair-market-value-understand-the-differences
 answerFirst: Fair value and fair market value are different valuation standards
   producing different numbers. The difference is whether value is discounted
   because of lack or marketability or lack of control. Which one governs is
@@ -25,19 +25,19 @@ Lawyers treat the standard of value as a preliminary. It is not. It is the case.
 
 ## Three standards, and what each one is for
 
-Fair market value is the Revenue Ruling 59-60 construct: the price at which property would change hands between a willing buyer and a willing seller, neither under compulsion, both reasonably informed. Both parties are hypothetical. Because they are hypothetical, they have no particular reason to want this company, and the thing being priced is the specific interest as it sits in the holder's hands — which means a twenty percent membership interest with no control, no exit, and no market gets priced accordingly. This is the standard for gift and estate tax, for most buy-sell formulas that use the term, and for anything the IRS reviews.
+Fair market value is the [Revenue Ruling 59-60](/authorities/revenue-ruling-59-60/) construct: the price at which property would change hands between a willing buyer and a willing seller, neither under compulsion, both reasonably informed. Both parties are hypothetical. Because they are hypothetical, they have no particular reason to want this company, and the thing being priced is the specific interest as it sits in the holder's hands — which means a twenty percent membership interest with no control, no exit, and no market gets priced accordingly. This is the standard for gift and estate tax, for most buy-sell formulas that use the term, and for anything the IRS reviews.
 
 Investment value is value to an identified holder, including that holder's financing, tax position, and synergies. It is the standard a strategic acquirer actually uses. It appears in litigation mostly as an argument about what the fair value number should look like.
 
-Fair value is a statutory term that the statutes creating it decline to define. It governs the court-ordered buyout under N.J.S.A. 14A:12-7(8), the New Jersey appraisal remedy under N.J.S.A. 14A:11-1 to -11, the New York elective buyout under Business Corporation Law § 1118, and Delaware appraisal under 8 Del. C. § 262. Its content is judge-made, and the content that matters is this: the object of the valuation is the company, not the shares.
+Fair value is a statutory term that the statutes creating it decline to define. It governs the court-ordered buyout under [N.J.S.A. 14A:12-7(8)](/authorities/njsa-14a-12-7/), the New Jersey appraisal remedy under [N.J.S.A. 14A:11-1 to -11](/authorities/njsa-14a-11-1-to-11/), the New York elective buyout under [Business Corporation Law § 1118](/authorities/ny-bcl-1118/), and Delaware appraisal under [8 Del. C. § 262](/authorities/8-del-c-262/). Its content is judge-made, and the content that matters is this: the object of the valuation is the company, not the shares.
 
-Delaware said it plainly in *Cavalier Oil Corp. v. Harnett*, 564 A.2d 1137 (Del. 1989). The appraisal values the corporation itself rather than a fraction of its shares as they exist in a particular shareholder's hands, and the shareholder receives his proportionate interest in a going concern. Discounting the individual holding, the court wrote, penalizes the minority for lack of control and hands the majority a windfall. New York reached the same place in *Friedman v. Beway Realty Corp.*, 87 N.Y.2d 161 (1995).
+Delaware said it plainly in [*Cavalier Oil Corp. v. Harnett*](/authorities/cavalier-oil-v-harnett-564-a2d-1137/), 564 A.2d 1137 (Del. 1989). The appraisal values the corporation itself rather than a fraction of its shares as they exist in a particular shareholder's hands, and the shareholder receives his proportionate interest in a going concern. Discounting the individual holding, the court wrote, penalizes the minority for lack of control and hands the majority a windfall. New York reached the same place in [*Friedman v. Beway Realty Corp.*](/authorities/friedman-v-beway-realty-87-ny2d-161/), 87 N.Y.2d 161 (1995).
 
 The practical consequence is that a minority discount has no place in a fair value determination in any of these jurisdictions. That is not a close question. What remains genuinely contested is marketability.
 
 ## New Jersey: equitable, not categorical
 
-New Jersey decided *Balsamides v. Protameen Chemicals, Inc.*, 160 N.J. 352 (1999), and *Lawson Mardon Wheaton, Inc. v. Smith*, 160 N.J. 383 (1999), on the same day, and they point in opposite directions on the facts while resting on a single principle.
+New Jersey decided [*Balsamides v. Protameen Chemicals, Inc.*](/authorities/balsamides-v-protameen-160-nj-352/), 160 N.J. 352 (1999), and [*Lawson Mardon Wheaton, Inc. v. Smith*](/authorities/lawson-mardon-wheaton-v-smith-160-nj-383/), 160 N.J. 383 (1999), on the same day, and they point in opposite directions on the facts while resting on a single principle.
 
 In *Lawson Mardon Wheaton*, dissenting shareholders were bought out and the company applied a twenty-five percent marketability discount. The Supreme Court held the discount inapplicable absent extraordinary circumstances, reasoning that applying it would enrich the majority, penalize minority holders for invoking the appraisal statute, and encourage squeeze-outs.
 
@@ -51,7 +51,7 @@ Flexible cuts both ways, and *Wisniewski v. Walsh*, 2015 N.J. Super. Unpub. LEXI
 
 None of the above matters if the parties wrote something down.
 
-*Namerow v. PediatriCare Associates, LLC*, 461 N.J. Super. 133 (Ch. Div. 2018), is the case to read before arguing about standards. A retiring physician sought a fair market valuation of the practice. The operating agreement specified a net worth methodology, keyed to the last value the members had agreed on, adjusted for changes in net worth — and the members had not updated the number in years. The court enforced the agreement as written. Sixteen years of contrary course of conduct did not modify it, and a breach of fiduciary duty claim could not be used to obtain a valuation methodology the plaintiff had not bargained for.
+[*Namerow v. PediatriCare Associates, LLC*](/authorities/namerow-v-pediatricare-461-nj-super-133/), 461 N.J. Super. 133 (Ch. Div. 2018), is the case to read before arguing about standards. A retiring physician sought a fair market valuation of the practice. The operating agreement specified a net worth methodology, keyed to the last value the members had agreed on, adjusted for changes in net worth — and the members had not updated the number in years. The court enforced the agreement as written. Sixteen years of contrary course of conduct did not modify it, and a breach of fiduciary duty claim could not be used to obtain a valuation methodology the plaintiff had not bargained for.
 
 That is the ordinary result. A buy-sell provision naming a standard, a formula, or an appraisal process displaces the statutory default for the transaction it covers. The statutory fair value framework governs when there is no agreement, when the agreement does not reach the triggering event, or when a court finds the mechanism inadequate.
 
@@ -85,10 +85,10 @@ The standard of value is not a technical preliminary that the experts will sort 
 Fair market value prices the specific interest as it exists in the owner's hands, between hypothetical parties, and therefore accommodates minority and marketability discounts. Fair value prices the enterprise as a going concern and awards the owner a proportionate share of it. The same company can produce numbers thirty to fifty percent apart depending on which standard applies.
 
 **Does New Jersey allow marketability discounts in a fair value buyout?**
-Only in extraordinary circumstances. *Lawson Mardon Wheaton, Inc. v. Smith*, 160 N.J. 383 (1999), and *Balsamides v. Protameen Chemicals, Inc.*, 160 N.J. 352 (1999), hold that a marketability discount cannot be used by a controlling or oppressing shareholder to benefit himself at the minority's expense. Whether the circumstances are extraordinary turns on who is buying, who is selling, and who caused the buyout.
+Only in extraordinary circumstances. [*Lawson Mardon Wheaton, Inc. v. Smith*](/authorities/lawson-mardon-wheaton-v-smith-160-nj-383/), 160 N.J. 383 (1999), and [*Balsamides v. Protameen Chemicals, Inc.*](/authorities/balsamides-v-protameen-160-nj-352/), 160 N.J. 352 (1999), hold that a marketability discount cannot be used by a controlling or oppressing shareholder to benefit himself at the minority's expense. Whether the circumstances are extraordinary turns on who is buying, who is selling, and who caused the buyout.
 
 **Can our operating agreement override the statutory standard?**
-Usually yes, for the transactions the agreement covers. *Namerow v. PediatriCare Associates, LLC*, 461 N.J. Super. 133 (Ch. Div. 2018), enforced a net worth valuation clause as written notwithstanding sixteen years of contrary practice, and rejected an attempt to reach a different methodology through a fiduciary duty claim.
+Usually yes, for the transactions the agreement covers. [*Namerow v. PediatriCare Associates, LLC*](/authorities/namerow-v-pediatricare-461-nj-super-133/), 461 N.J. Super. 133 (Ch. Div. 2018), enforced a net worth valuation clause as written notwithstanding sixteen years of contrary practice, and rejected an attempt to reach a different methodology through a fiduciary duty claim.
 
 **Why is the number in my divorce different from the number in my partner dispute?**
 Different standards and different premises. In equitable distribution no interest changes hands, so discounts for illiquidity are generally inapplicable, and the personal-versus-enterprise goodwill question under *Dugan v. Dugan*, 92 N.J. 423 (1983), removes value from a professional practice that a buyout analysis might include.
