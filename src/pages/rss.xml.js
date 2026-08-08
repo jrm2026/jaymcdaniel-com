@@ -5,7 +5,7 @@ import { SITE } from '../lib/site';
 export async function GET(context) {
   const posts = await allPosts();
   return rss({
-    title: `${SITE.name} — ${SITE.newsletter}`,
+    title: `${SITE.name} — Articles`,
     description: 'Answer-first writing on valuation, business divorce, and exit for closely held companies.',
     site: context.site,
     items: posts.map((p) => ({

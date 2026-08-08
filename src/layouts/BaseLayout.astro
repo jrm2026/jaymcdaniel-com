@@ -58,7 +58,7 @@ const graphs = [person, org, ...jsonld];
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <link rel="alternate" type="application/rss+xml" title={SITE.newsletter} href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — Articles`} href="/rss.xml" />
     {graphs.map((g) => (
       <script type="application/ld+json" set:html={JSON.stringify(g)} />
     ))}

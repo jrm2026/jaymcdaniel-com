@@ -1,5 +1,5 @@
 ---
-import { SITE, PILLARS, tagSlug } from '../lib/site';
+import { SITE, PILLARS, tagSlug, mailto } from '../lib/site';
 import { pillarCounts } from '../lib/posts';
 const counts = await pillarCounts();
 // Cross-cutting tag rows shown under the pillars in the topic list.
@@ -7,14 +7,9 @@ const extraTopics = ['Matrimonial', 'Tax Controversy'];
 ---
 <aside>
   <div class="box accent">
-    <h3>{SITE.newsletter}</h3>
-    <p class="subcopy">One clear piece a week on what drives, protects, and realizes the value of a closely held business. Read by attorneys, owners, and advisors.</p>
-    <!-- Replace action with your email provider's form endpoint (Kit / MailerLite / Buttondown). -->
-    <form class="subform" action="#" method="post">
-      <label for="sb-email" class="skip-link">Your email address</label>
-      <input id="sb-email" type="email" name="email" placeholder="Your email address" required />
-      <button type="submit">Subscribe free</button>
-    </form>
+    <h3>Have a specific question?</h3>
+    <p class="subcopy">The articles cover the general question. For the one in front of you &mdash; a valuation, a dispute, an exit &mdash; email me directly. I read every message.</p>
+    <a class="email-cta" href={mailto()}>Email me</a>
   </div>
 
   <div class="box">
