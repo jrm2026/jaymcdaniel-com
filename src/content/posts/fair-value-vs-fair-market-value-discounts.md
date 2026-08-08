@@ -17,6 +17,8 @@ date: 2026-07-08
 readTime: 8 min read
 draft: false
 ---
+#  Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case
+
 Fair market value prices the block of stock. Fair value prices a proportionate share of the enterprise. Between those two definitions sits thirty to fifty percent of the money, and the question is usually settled — by statute, by contract, or by default — before either expert opens a workbook.
 
 Lawyers treat the standard of value as a preliminary. It is not. It is the case. An expert given the wrong standard produces a competent report answering a question nobody asked, and the error is often invisible until cross-examination, because the arithmetic underneath is identical either way. Same normalized earnings, same multiple, same discount rate. The divergence happens in the last two lines.
