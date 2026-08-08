@@ -63,7 +63,7 @@ Matrimonial valuation in New Jersey runs on a similar rule and different logic, 
 
 *Brown v. Brown*, 348 N.J. Super. 466 (App. Div. 2002), applied the extraordinary circumstances standard outside the oppression context, and *Denike v. Cupo*, 394 N.J. Super. 357 (App. Div. 2007), restated the operative reason: discounts are generally inapplicable where there is no actual transfer of shares and no likely sale of the business. In equitable distribution the interest is not being sold. It is being counted. A discount for the difficulty of selling something nobody is selling is a fiction.
 
-Goodwill is where the real divergence lives. *Dugan v. Dugan*, 92 N.J. 423 (1983), defined goodwill as reputation likely to generate future business and made professional practice goodwill distributable — but the value has to be goodwill that survives the practitioner and transfers to a successor. That inquiry, personal versus enterprise, drives more variance between two competent appraisals of a professional practice than every discount argument combined.
+Goodwill is where the real divergence lives. [*Dugan v. Dugan*](/authorities/dugan-v-dugan-92-nj-423/), 92 N.J. 423 (1983), defined goodwill as reputation likely to generate future business and made professional practice goodwill distributable — but the value has to be goodwill that survives the practitioner and transfers to a successor. That inquiry, personal versus enterprise, drives more variance between two competent appraisals of a professional practice than every discount argument combined.
 
 ## What to do about it
 
@@ -91,7 +91,7 @@ Only in extraordinary circumstances. [*Lawson Mardon Wheaton, Inc. v. Smith*](/a
 Usually yes, for the transactions the agreement covers. [*Namerow v. PediatriCare Associates, LLC*](/authorities/namerow-v-pediatricare-461-nj-super-133/), 461 N.J. Super. 133 (Ch. Div. 2018), enforced a net worth valuation clause as written notwithstanding sixteen years of contrary practice, and rejected an attempt to reach a different methodology through a fiduciary duty claim.
 
 **Why is the number in my divorce different from the number in my partner dispute?**
-Different standards and different premises. In equitable distribution no interest changes hands, so discounts for illiquidity are generally inapplicable, and the personal-versus-enterprise goodwill question under *Dugan v. Dugan*, 92 N.J. 423 (1983), removes value from a professional practice that a buyout analysis might include.
+Different standards and different premises. In equitable distribution no interest changes hands, so discounts for illiquidity are generally inapplicable, and the personal-versus-enterprise goodwill question under [*Dugan v. Dugan*](/authorities/dugan-v-dugan-92-nj-423/), 92 N.J. 423 (1983), removes value from a professional practice that a buyout analysis might include.
 
 **Who decides which standard applies?**
 The court, on the statute and the agreement — but in practice the parties frame it. The standard should be pleaded and stated in the expert engagement letter before any appraisal work begins.
