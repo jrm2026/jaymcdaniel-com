@@ -55,10 +55,12 @@ there is a specific reason to doubt the link will still resolve in ten years:
   or the document exists nowhere but there.
 
 When one of these applies, and only then, work the resolution order below to
-obtain an official copy, store it, and set `archived: true`. When in doubt about
-whether a host qualifies as stable, prefer linking out over archiving — but if
-the citation matters and the host is genuinely shaky, archiving is cheap
-insurance. Raise the judgment call with Jay if it is close.
+obtain an official copy, store it, and set `archived: true`. **When in doubt,
+link out.** Archive only on a clear, specific stability concern — not on a vague
+one, and not out of caution. Do not stop to ask Jay whether a borderline host
+qualifies; default to the link-out and note it in the run report. The headnote,
+not the hosted PDF, is what makes the page work — a link-only authority with an
+approved headnote is fully doing its job.
 
 ## Hard rules
 
