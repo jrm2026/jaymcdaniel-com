@@ -109,12 +109,12 @@ content:
     path: src/content/authorities
     filename: "{fields.slug}.md"
     view:
-      fields: [title, citation, jurisdiction, archived]
+      fields: [title, citation, headnoteApproved, jurisdiction]
       primary: title
-      sort: [decided, title]
+      sort: [headnoteApproved, decided, title]
       default:
-        sort: decided
-        order: desc
+        sort: headnoteApproved
+        order: asc
     fields:
       - name: title
         label: Case or statute name
