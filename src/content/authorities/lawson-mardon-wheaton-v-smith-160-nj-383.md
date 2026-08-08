@@ -11,7 +11,6 @@ holding: "A marketability discount ordinarily should not be applied in determini
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal", "Transaction Evidence"]
 headnoteApproved: true
 archived: false
-format: text
 localCopy: ""
 sourceUrl: "https://law.justia.com/cases/new-jersey/supreme-court/1999/a-63-98-opn.html"
 sourceName: "Justia (public case text; not an issuing-court archive)"

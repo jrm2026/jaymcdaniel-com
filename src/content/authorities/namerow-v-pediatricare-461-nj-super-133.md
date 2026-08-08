@@ -18,10 +18,11 @@ topics:
   - Oppression
 headnoteApproved: true
 archived: false
-format: pdf
+localCopy: ""
 sourceUrl: https://www.njcourts.gov/attorneys/assets/opinions/trial/c000273-17.pdf
 sourceName: New Jersey Courts
 retrieved: 2026-08-07
+sha1: ""
 ---
 A pediatric practice's operating agreement said that if the members failed to agree on a new company valuation for more than two years, the buyout price would be built off the last agreed value, adjusted for changes in net worth. The members signed a Certificate of Agreed Value at $2.4 million on January 1, 2000, and never signed another one. Dr. Namerow announced his retirement in 2016 — the first retirement in the practice's history, and the first occasion to apply a provision nobody had thought about in sixteen years.
 

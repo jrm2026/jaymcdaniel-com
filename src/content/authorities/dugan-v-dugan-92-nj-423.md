@@ -11,7 +11,6 @@ holding: "Goodwill is reputation likely to generate future business, and the goo
 topics: ["Goodwill", "Fair Value Standard"]
 headnoteApproved: false
 archived: false
-format: text
 localCopy: ""
 sourceUrl: "https://www.courtlistener.com/opinion/1954557/dugan-v-dugan/"
 sourceName: "CourtListener"

@@ -11,7 +11,6 @@ holding: "A marketability discount may be applied in an oppression buyout when e
 topics: ["Fair Value Standard", "Discounts & Premiums", "Oppression"]
 headnoteApproved: true
 archived: false
-format: text
 localCopy: ""
 sourceUrl: "https://law.justia.com/cases/new-jersey/supreme-court/1999/a-27-98-opn.html"
 sourceName: "Justia (public case text; not an issuing-court archive)"

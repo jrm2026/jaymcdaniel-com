@@ -11,7 +11,6 @@ holding: "Merger price and prior offers may be relevant in appraisal, but the Co
 topics: ["Fair Value Standard", "Appraisal", "Transaction Evidence", "Synergies"]
 headnoteApproved: true
 archived: false
-format: text
 localCopy: ""
 sourceUrl: "https://law.justia.com/cases/delaware/supreme-court/1999/266-1998-3.html"
 sourceName: "Justia (public case text; not an issuing-court archive)"

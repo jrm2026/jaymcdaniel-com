@@ -11,7 +11,6 @@ holding: "Appraisal values the corporation as an operating entity and awards the
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
 headnoteApproved: true
 archived: false
-format: text
 localCopy: ""
 sourceUrl: "https://law.justia.com/cases/delaware/supreme-court/1989/564-a-2d-1137-5.html"
 sourceName: "Justia (public case text; not an issuing-court archive)"

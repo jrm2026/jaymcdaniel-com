@@ -11,7 +11,6 @@ holding: "In valuing an interest in the AriZona beverage enterprise, the trial c
 topics: ["Fair Value Standard", "Discounts & Premiums", "Transaction Evidence", "Buyout Remedy"]
 headnoteApproved: true
 archived: false
-format: pdf
 localCopy: ""
 sourceUrl: "https://www.nycourts.gov/Reporter/pdfs/2014/2014_32830.pdf"
 sourceName: "New York State Law Reporting Bureau"

@@ -11,7 +11,6 @@ holding: "Fair value measures a dissenting shareholder's proportionate interest 
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
 headnoteApproved: true
 archived: false
-format: text
 localCopy: ""
 sourceUrl: "https://law.justia.com/cases/new-york/court-of-appeals/1995/87-n-y-2d-161-0.html"
 sourceName: "Justia (public case text; not an issuing-court archive)"
