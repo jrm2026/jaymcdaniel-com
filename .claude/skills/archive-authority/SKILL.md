@@ -7,15 +7,21 @@ description: Use when Jay asks to archive a case, statute, or ruling cited in an
 
 ## Purpose
 
-Every case or statute cited in an article should resolve to a copy hosted on
-jaymcdaniel.com, not to a third-party site that may reorganize, paywall, or
-disappear. This skill defines how to obtain the official copy, where to put it,
-and what to record about where it came from.
+Every case or statute cited in an article should resolve to an **authority page**
+on jaymcdaniel.com — Jay's headnote on what it holds and why it matters to a
+closely held owner — rather than to a third-party site that may reorganize,
+paywall, or disappear. This skill defines how to write that page, how to link an
+article's citations to it, and how — optionally — to store an official copy of
+the underlying document.
 
-The archive is an asset, not a mirror. A bare PDF duplicates a document already
-on a dozen sites. The value is the authority page wrapped around it: Jay's own
-statement of what the case holds and why it matters to a closely held owner.
-Never create the PDF without the page.
+**Note-first.** The headnote is the deliverable and is required for every
+authority. It is the original, indexable content that builds the site's
+authority; the underlying PDF is a commodity available on a dozen sites. Hosting
+a local copy is *optional*: do it for the few tentpole authorities worth insuring
+against link rot, and otherwise let the page fall back to a link to a free public
+source. Do not expend effort chasing a downloadable copy for every citation — an
+approved headnote with a working public-source link is a complete, publishable
+page. Never create a hosted copy without a headnote wrapped around it.
 
 ## Hard rules
 
@@ -139,20 +145,49 @@ content and should not be published.
 
 ## Linking from articles
 
-Once an authority is archived, the article citation points to the authority page,
-not to the PDF and not to the external source:
+Every authority cited in the body of an article should link to its authority page
+as soon as that page exists and its headnote is approved — the archived/`archived:
+false` state does not matter, because the page itself carries whichever path is
+available (a hosted copy, or a link to a free public source). The in-text link's
+only job is to get the reader to the authority page; the page offers the reader
+the two ways onward.
+
+The convention is to **link the citation text itself** to the authority page —
+the italicized case name for a case, the statutory designation for a statute or
+ruling — without altering the citation string:
 
 ```markdown
-*Balsamides v. Protameen Chemicals, Inc.*, 160 N.J. 352, 734 A.2d 721 (1999)
-([opinion here](/authorities/balsamides-v-protameen-160-nj-352/))
+Delaware settled the unit of valuation in
+[*Cavalier Oil Corp. v. Harnett*](/authorities/cavalier-oil-v-harnett-564-a2d-1137/),
+564 A.2d 1137 (Del. 1989).
+
+... the court-ordered buyout under
+[N.J.S.A. 14A:12-7(8)](/authorities/njsa-14a-12-7/) ...
 ```
 
-The authority page carries both the local copy and the external source link, so
-a reader who wants the court's own site can still get there and the provenance
-stays visible.
+This keeps the reporter citation pristine (it is the string a reader or an answer
+engine will match on) while making the reference clickable. The link target is
+always our own `/authorities/<slug>/` page — never a database and never a bare
+PDF — so the reference stays source-agnostic and the provenance and public-source
+link live on one page we control.
 
-Link labels stay source-agnostic: "opinion here" for cases, "text here" for
-statutes and rulings. Never name the database in the article.
+Link the **first occurrence in the body**, and the **first occurrence inside the
+FAQ block** if the authority is cited there, since an FAQ answer is a standalone
+unit an answer engine may extract on its own. Do not link every repetition; that
+is noise.
+
+If a cited authority has **no authority page yet**, do not invent a link. Create
+the page first (write the headnote, get Jay's sign-off, optionally archive a
+copy), then link. Report every citation left unlinked for want of a page.
+
+### Running the pass: the `/link-authorities` command
+
+`.claude/commands/link-authorities.md` automates this for a post. Invoke it as
+`/link-authorities <path-to-post.md>` (or with no argument to sweep every
+published post). It matches each citation to an existing authority page, inserts
+the links per the convention above, and reports any citation whose authority page
+does not exist yet so you know which headnotes to draft next. It only ever wraps a
+citation in a link — it never rewrites Jay's prose.
 
 ## Questions that go to Jay
 

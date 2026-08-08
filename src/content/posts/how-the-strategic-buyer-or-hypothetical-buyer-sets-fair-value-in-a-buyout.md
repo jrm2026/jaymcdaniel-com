@@ -3,7 +3,7 @@ title: How the Strategic Buyer or Hypothetical Buyer Sets Fair Value in a Buyout
 answerFirst: Fair value measures the enterprise, not the block of equity
   interests owned by one of the owners.  In a judicially supervised dissolution,
   think about how a credible strategic buyer changes the number in an LLC or
-  shareholder buyou.
+  shareholder buyout.
 pillar: Valuation
 tags:
   - Valuation Methodology
@@ -11,7 +11,7 @@ tags:
   - Dissolution
 date: 2026-08-06
 readTime: 9 min read
-draft: true
+draft: false
 ---
 # Strategic Buyer or Hypothetical Buyer: Who Sets Fair Value in a Buyout?
 
@@ -33,13 +33,13 @@ Valuation calls that increment synergy. Lawyers should call it what it is in a d
 
 ## Three standards, and the one most people conflate
 
-Fair market value is the price at which property would change hands between a hypothetical willing buyer and a hypothetical willing seller, neither under compulsion, both reasonably informed. That is the Revenue Ruling 59-60 construct, and its hypothetical buyer is deliberately impersonal. He is no one in particular, which means he has no synergies, because synergies belong to someone in particular.
+Fair market value is the price at which property would change hands between a hypothetical willing buyer and a hypothetical willing seller, neither under compulsion, both reasonably informed. That is the [Revenue Ruling 59-60](/authorities/revenue-ruling-59-60/) construct, and its hypothetical buyer is deliberately impersonal. He is no one in particular, which means he has no synergies, because synergies belong to someone in particular.
 
 Investment value is the opposite. It is value to an identified owner, with that owner's synergies, financing, and tax position included.
 
-Fair value is neither. It is a creature of statute, undefined in the statutes that use it, and its content comes from the case law. In New Jersey it governs the court-ordered buyout under N.J.S.A. 14A:12-7(8) and the appraisal remedy under N.J.S.A. 14A:11-1 to -11. In New York it governs the elective buyout under Business Corporation Law § 1118. In Delaware it governs appraisal under 8 Del. C. § 262.
+Fair value is neither. It is a creature of statute, undefined in the statutes that use it, and its content comes from the case law. In New Jersey it governs the court-ordered buyout under [N.J.S.A. 14A:12-7(8)](/authorities/njsa-14a-12-7/) and the appraisal remedy under [N.J.S.A. 14A:11-1 to -11](/authorities/njsa-14a-11-1-to-11/). In New York it governs the elective buyout under [Business Corporation Law § 1118](/authorities/ny-bcl-1118/). In Delaware it governs appraisal under [8 Del. C. § 262](/authorities/8-del-c-262/).
 
-The common error, made by lawyers and by more valuation analysts than should be making it, is to treat fair value as fair market value with the discounts stripped out. It is not. Delaware settled the unit of valuation in *Cavalier Oil Corp. v. Harnett*, 564 A.2d 1137 (Del. 1989): the object is the shareholder's proportionate interest in a going concern, and the task, in the Vice Chancellor's formulation that the Supreme Court endorsed, is to value the corporation itself rather than a specific fraction of its shares as they exist in the hands of a particular shareholder. New Jersey and New York run the same way. *Balsamides v. Protameen Chemicals, Inc.*, 160 N.J. 352 (1999); *Lawson Mardon Wheaton, Inc. v. Smith*, 160 N.J. 383 (1999); *Friedman v. Beway Realty Corp.*, 87 N.Y.2d 161 (1995).
+The common error, made by lawyers and by more valuation analysts than should be making it, is to treat fair value as fair market value with the discounts stripped out. It is not. Delaware settled the unit of valuation in [*Cavalier Oil Corp. v. Harnett*](/authorities/cavalier-oil-v-harnett-564-a2d-1137/), 564 A.2d 1137 (Del. 1989): the object is the shareholder's proportionate interest in a going concern, and the task, in the Vice Chancellor's formulation that the Supreme Court endorsed, is to value the corporation itself rather than a specific fraction of its shares as they exist in the hands of a particular shareholder. New Jersey and New York run the same way. [*Balsamides v. Protameen Chemicals, Inc.*](/authorities/balsamides-v-protameen-160-nj-352/), 160 N.J. 352 (1999); [*Lawson Mardon Wheaton, Inc. v. Smith*](/authorities/lawson-mardon-wheaton-v-smith-160-nj-383/), 160 N.J. 383 (1999); [*Friedman v. Beway Realty Corp.*](/authorities/friedman-v-beway-realty-87-ny2d-161/), 87 N.Y.2d 161 (1995).
 
 That is the opening. Once the thing being valued is the enterprise rather than the block, the hypothetical buyer of fair market value theory has no work left to do, and the live question becomes the one the majority least wants asked. Worth as a going concern to whom?
 
@@ -47,9 +47,9 @@ That is the opening. Once the thing being valued is the enterprise rather than t
 
 Take the counterargument seriously, because opposing counsel will make it and some of it is right.
 
-Delaware's appraisal statute directs the court to determine fair value "exclusive of any element of value arising from the accomplishment or expectation of the merger." 8 Del. C. § 262(h). The Delaware Supreme Court has read that as a command to find "the going concern value of the company irrespective of the synergies involved in a merger." *M.P.M. Enterprises, Inc. v. Gilbert*, 731 A.2d 790, 797 (Del. 1999). *Cavalier Oil* itself instructs that the company be valued as an operating entity without regard to post-merger events or other possible business combinations. 564 A.2d at 1145. The exclusion from consideration of post-merger synergies is a hard-and-fast rule in Delaware's jurisprudence.
+Delaware's appraisal statute directs the court to determine fair value "exclusive of any element of value arising from the accomplishment or expectation of the merger." 8 Del. C. § 262(h). The Delaware Supreme Court has read that as a command to find "the going concern value of the company irrespective of the synergies involved in a merger." [*M.P.M. Enterprises, Inc. v. Gilbert*](/authorities/mpm-enterprises-v-gilbert-731-a2d-790/), 731 A.2d 790, 797 (Del. 1999). *Cavalier Oil* itself instructs that the company be valued as an operating entity without regard to post-merger events or other possible business combinations. 564 A.2d at 1145. The exclusion from consideration of post-merger synergies is a hard-and-fast rule in Delaware's jurisprudence.
 
-Read carelessly, that is fatal to the strategic buyer argument. Read correctly, it is narrower than it looks, and *Verition Partners Master Fund Ltd. v. Aruba Networks, Inc.*, 210 A.3d 128 (Del. 2019), shows why. The court there fixed fair value at $19.10 per share, the price Hewlett-Packard paid less the synergies HP expected from the combination, and reversed the Court of Chancery for using the unaffected trading price instead. The court did not ignore the strategic acquirer. It started with the strategic acquirer's price and subtracted the piece the acquirer itself created.
+Read carelessly, that is fatal to the strategic buyer argument. Read correctly, it is narrower than it looks, and [*Verition Partners Master Fund Ltd. v. Aruba Networks, Inc.*](/authorities/verition-partners-v-aruba-networks-210-a3d-128/), 210 A.3d 128 (Del. 2019), shows why. The court there fixed fair value at $19.10 per share, the price Hewlett-Packard paid less the synergies HP expected from the combination, and reversed the Court of Chancery for using the unaffected trading price instead. The court did not ignore the strategic acquirer. It started with the strategic acquirer's price and subtracted the piece the acquirer itself created.
 
 The exclusion is transaction-specific. It removes value that the acquirer manufactures by combining, in the very deal under review. It does not hold that a company's attractiveness to acquirers is irrelevant to what the company is worth. Those are different propositions, and the distinction is the hinge of the whole argument: synergies created by the transaction are excluded, while the demand latent in the enterprise, available to a class of buyers, is a fact about the company on the valuation date.
 
@@ -59,7 +59,7 @@ New Jersey never adopted § 262(h)'s exclusion, and its fair value jurisprudence
 
 The first is *Lawson Mardon Wheaton*. The valuation date was December 5, 1991. Four and a half years later, Alusuisse-Lonza acquired the company at $63 per share. The trial court refused to reopen the record, reasoning that the acquisition price was neither known nor knowable at the valuation date. The Supreme Court reversed, remanding "after reopening the record for the limited purpose of considering the significance of the $63.00 per share Alusuisse merger price." Read the holding precisely. The merger price did not become fair value. It became admissible evidence against which the court's number could be tested, notwithstanding that it postdated the valuation date by years and involved a strategic acquirer. A New Jersey court that excludes a real acquisition price from a fair value proceeding is out of step with its own Supreme Court.
 
-The second is the statute. The purchase price in a court-ordered buyout is fair value "as of the date of the commencement of the action or such earlier or later date deemed equitable by the court, plus or minus any adjustments deemed equitable by the court." N.J.S.A. 14A:12-7(8)(a). The valuation date is a variable, not a constant, and so is the number that comes out of it. For limited liability companies, N.J.S.A. 42:2C-48(a)(5)(b) permits relief where controlling members act oppressively to the applicant's harm, and § 48(b) authorizes the court to order "a remedy other than dissolution," with the listed remedies expressly non-exhaustive. That is a wide grant.
+The second is the statute. The purchase price in a court-ordered buyout is fair value "as of the date of the commencement of the action or such earlier or later date deemed equitable by the court, plus or minus any adjustments deemed equitable by the court." N.J.S.A. 14A:12-7(8)(a). The valuation date is a variable, not a constant, and so is the number that comes out of it. For limited liability companies, [N.J.S.A. 42:2C-48(a)(5)(b)](/authorities/njsa-42-2c-48/) permits relief where controlling members act oppressively to the applicant's harm, and § 48(b) authorizes the court to order "a remedy other than dissolution," with the listed remedies expressly non-exhaustive. That is a wide grant.
 
 ## The market approach already concedes the point
 
@@ -81,7 +81,7 @@ That is the mechanism. The strategic buyer does not persuade the majority that f
 
 ## The buyer who does not exist will be used against you
 
-In the AriZona Beverages buyout, the largest of its kind in New York, the petitioner pointed to expressions of interest from potential acquirers. The court rejected the comparable analyses, relied solely on a discounted cash flow, and then treated the failure of those expressions of interest to ripen into bona fide offers as evidence of illiquidity supporting a 25% marketability discount. *Ferolito v. AriZona Beverages USA LLC*, 2014 N.Y. Slip Op. 32830(U) (Sup. Ct. Nassau Cnty. Oct. 14, 2014).
+In the AriZona Beverages buyout, the largest of its kind in New York, the petitioner pointed to expressions of interest from potential acquirers. The court rejected the comparable analyses, relied solely on a discounted cash flow, and then treated the failure of those expressions of interest to ripen into bona fide offers as evidence of illiquidity supporting a 25% marketability discount. [*Ferolito v. AriZona Beverages USA LLC*](/authorities/ferolito-v-arizona-beverages-2014-ny-slip-op-32830u/), 2014 N.Y. Slip Op. 32830(U) (Sup. Ct. Nassau Cnty. Oct. 14, 2014).
 
 The lesson is not that strategic interest is inadmissible. It is that unconsummated interest proves the opposite of what its proponent intends. A buyer who kicked tires and walked away is affirmative evidence that the company is hard to sell.
 
@@ -109,10 +109,10 @@ Fair value is a legal construct, but it is decided by people looking at evidence
 No. Fair market value assumes a hypothetical willing buyer and seller and prices the specific interest being transferred. Fair value in a statutory buyout or appraisal values the enterprise as a going concern and awards the owner a proportionate share of it. The difference routinely exceeds the entire amount in dispute over discounts.
 
 **Can a court consider an offer from a strategic buyer in setting fair value?**
-In New Jersey, yes. The Supreme Court in *Lawson Mardon Wheaton, Inc. v. Smith*, 160 N.J. 383 (1999), required the trial court to reopen the record to consider an actual acquisition price that postdated the valuation date by more than four years. The offer is evidence to be weighed, not a substitute for the court's determination.
+In New Jersey, yes. The Supreme Court in [*Lawson Mardon Wheaton, Inc. v. Smith*](/authorities/lawson-mardon-wheaton-v-smith-160-nj-383/), 160 N.J. 383 (1999), required the trial court to reopen the record to consider an actual acquisition price that postdated the valuation date by more than four years. The offer is evidence to be weighed, not a substitute for the court's determination.
 
 **Does fair value include synergies?**
-Not the synergies created by the transaction under review. Delaware's appraisal statute excludes value arising from the accomplishment or expectation of the merger, 8 Del. C. § 262(h), and *M.P.M. Enterprises, Inc. v. Gilbert*, 731 A.2d 790 (Del. 1999), enforces that exclusion. Demand for the company from a class of acquirers is different: it is a market fact about the enterprise on the valuation date, and it reaches the number through the market approach in any event.
+Not the synergies created by the transaction under review. Delaware's appraisal statute excludes value arising from the accomplishment or expectation of the merger, [8 Del. C. § 262(h)](/authorities/8-del-c-262/), and [*M.P.M. Enterprises, Inc. v. Gilbert*](/authorities/mpm-enterprises-v-gilbert-731-a2d-790/), 731 A.2d 790 (Del. 1999), enforces that exclusion. Demand for the company from a class of acquirers is different: it is a market fact about the enterprise on the valuation date, and it reaches the number through the market approach in any event.
 
 **What does this mean for the value of my LLC interest?**
 It can mean a materially higher price, but only if the buyer is real and appears early. Documented interest from a funded acquirer changes what the majority is deciding, because the alternative to buying you out is a sale process the majority may not win. Expressions of interest that never become offers can cut the other way and support a marketability discount.
