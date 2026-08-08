@@ -1,0 +1,19 @@
+# Build output (regenerated from source on every deploy)
+dist/
+
+# Dependencies
+node_modules/
+
+# Astro generated cache and types
+.astro/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs and OS/editor cruft
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
