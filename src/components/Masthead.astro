@@ -1,7 +1,18 @@
 ---
+import { Image } from 'astro:assets';
 import { SITE } from '../lib/site';
+import portrait from '../assets/jay-mcdaniel.jpg';
 ---
 <header class="masthead">
+  <Image
+    class="portrait"
+    src={portrait}
+    alt={SITE.name}
+    width={120}
+    height={120}
+    densities={[2]}
+    loading="eager"
+  />
   <h1 class="wordmark"><a href="/">{SITE.wordmarkFirst} <span>{SITE.wordmarkLast}</span></a></h1>
   <div class="tagline">{SITE.tagline}</div>
   <div class="creds">{SITE.creds}</div>

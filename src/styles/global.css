@@ -39,6 +39,7 @@ a{color:var(--accent)}
 
 /* ---------- masthead ---------- */
 header.masthead{text-align:center;padding:40px 0 20px}
+.portrait{display:block;margin:0 auto 20px;width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:center;border:1px solid var(--line);box-shadow:0 2px 8px rgba(27,26,24,.10)}
 .wordmark{font-size:38px;letter-spacing:.22em;font-weight:600;margin:0;text-transform:uppercase}
 .wordmark a{color:inherit;text-decoration:none}
 .wordmark span{color:var(--accent)}
@@ -201,4 +202,5 @@ footer.site .attorney-advertising p{font-size:11.5px;line-height:1.65;margin:0}
   .post .meta-tag{text-align:left;width:auto}
   footer.site .inner{grid-template-columns:1fr;gap:24px}
   .wordmark{font-size:30px;letter-spacing:.16em}
+  .portrait{width:92px;height:92px;margin-bottom:16px}
 }
