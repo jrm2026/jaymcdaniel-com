@@ -15,7 +15,7 @@ tags:
   - Discounts & Premiums
 date: 2026-07-08
 readTime: 8 min read
-draft: true
+draft: false
 ---
 # Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case
 
