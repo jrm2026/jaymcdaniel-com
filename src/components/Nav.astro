@@ -11,6 +11,5 @@ const cur = (key: string) => (current === key ? 'page' : undefined);
       <a href={`/${p.slug}/`} class="pillar" aria-current={cur(p.slug)}>{p.label}</a>
     ))}
     <a href="/about/" aria-current={cur('about')}>About</a>
-    <a href="/contact/" class="contact-btn" aria-current={cur('contact')}>Contact</a>
   </div>
 </nav>
