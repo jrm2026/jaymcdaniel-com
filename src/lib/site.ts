@@ -26,7 +26,7 @@ export const SITE = {
   ],
   phone: '(201) 896-7042',
   url: 'https://jaymcdaniel.com',
-  newsletter: 'The Valuation Letter', // Section 9 open decision — confirm/replace.
+  email: 'jmcdaniel@sh-law.com',
   // sameAs links for the Person schema (Section 8). Fill real URLs before launch.
   sameAs: [
     'https://www.linkedin.com/in/jayrmcdaniel',
@@ -81,4 +81,10 @@ export function pillarBySlug(slug: string) {
 
 export function pillarByLabel(label: string) {
   return PILLARS.find((p) => p.label === label);
+}
+
+// Build a mailto link for the "Email me" contact affordance. Pass a subject to
+// pre-fill it (e.g. the article title) so inbound mail is easy to triage.
+export function mailto(subject = 'Inquiry via jaymcdaniel.com'): string {
+  return `mailto:${SITE.email}?subject=${encodeURIComponent(subject)}`;
 }

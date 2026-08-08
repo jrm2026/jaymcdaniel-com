@@ -2,7 +2,7 @@
 import { render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { allPosts, postsByPillar, fmtDate } from '../lib/posts';
-import { SITE, pillarByLabel, tagSlug } from '../lib/site';
+import { SITE, pillarByLabel, tagSlug, mailto } from '../lib/site';
 
 export async function getStaticPaths() {
   const posts = await allPosts();
@@ -77,13 +77,9 @@ const faqSchema = {
     )}
 
     <div class="endsub">
-      <h3>{SITE.newsletter}</h3>
-      <p>One clear piece a week on what drives, protects, and realizes the value of a closely held business.</p>
-      <form class="subform" action="#" method="post">
-        <label for="end-email" class="skip-link">Your email address</label>
-        <input id="end-email" type="email" name="email" placeholder="Your email address" required />
-        <button type="submit">Subscribe free</button>
-      </form>
+      <h3>Have a question about your situation?</h3>
+      <p>This piece answers the general question. For the specific one in front of you, email me directly &mdash; tell me what you are dealing with.</p>
+      <a class="email-cta" href={mailto(`Question: ${data.title.replace(/<[^>]+>/g, '')}`)}>Email me</a>
     </div>
 
     <div class="authorfoot">

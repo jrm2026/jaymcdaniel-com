@@ -7,3 +7,7 @@
 # Examples (replace with the real inventory before launch):
 # /old-business-divorce-post-slug   /business-divorce-post-slug/   301
 # /valuation-counsel-landing         /valuation/                    301
+
+# The newsletter signup page was replaced by a direct contact page.
+/subscribe   /contact/   301
+/subscribe/  /contact/   301
