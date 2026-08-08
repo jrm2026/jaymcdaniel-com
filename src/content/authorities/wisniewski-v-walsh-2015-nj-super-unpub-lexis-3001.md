@@ -12,8 +12,8 @@ topics: ["Discounts & Premiums", "Fair Value Standard", "Oppression"]
 headnoteApproved: false
 archived: false
 localCopy: ""
-sourceUrl: ""
-sourceName: ""
+sourceUrl: "https://www.sillscummis.com/wp-content/uploads/2021/07/Wisniewski_v._Walsh_2015_NJ_Super._LEXIS_3001.pdf"
+sourceName: "Sills Cummis & Gross (slip opinion PDF)"
 retrieved: 2026-08-08
 sha1: ""
 ---
