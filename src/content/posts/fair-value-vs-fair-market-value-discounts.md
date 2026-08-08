@@ -1,3 +1,22 @@
+---
+title: "Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case"
+slug: fair-value-v-fair-market-value-understand-the-differneces
+answerFirst: Fair value and fair market value are different valuation standards
+  producing different numbers. The difference is whether value is discounted
+  because of lack or marketability or lack of control. Which one governs is
+  usually decided before the appraisal begins, and it decides the case.
+dek: Fair value and fair market value are two different standards, often
+  misidentified and misunderstood. The outcome of a valuation dispute will often
+  turn on which is applied.
+pillar: Valuation
+tags:
+  - Valuation Methodology
+  - Fair Value Standard
+  - Discounts & Premiums
+date: 2026-07-08
+readTime: 8 min read
+draft: true
+---
 # Fair Value vs. Fair Market Value: The Discount Fight That Decides the Case
 
 Fair market value prices the block of stock. Fair value prices a proportionate share of the enterprise. Between those two definitions sits thirty to fifty percent of the money, and the question is usually settled — by statute, by contract, or by default — before either expert opens a workbook.
