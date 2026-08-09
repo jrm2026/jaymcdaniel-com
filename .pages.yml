@@ -74,6 +74,7 @@ content:
             - Valuation Methodology
             - Fair Value Standard
             - Discounts & Premiums
+            - Goodwill
 
       - name: date
         label: Publication date
