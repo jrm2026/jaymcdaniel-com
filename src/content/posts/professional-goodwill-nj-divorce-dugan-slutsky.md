@@ -1,22 +1,21 @@
 ---
 title: How Do New Jersey Courts Value Professional Goodwill in a Divorce?
+slug: professional-goodwill-nj-divorce-dugan-slutsky
 answerFirst: New Jersey distributes the goodwill of a professional practice even
   though the practice often cannot be sold. Dugan settled that in 1983. What
   decides cases now is narrower — whether this owner's earnings exceed what the
-  market pays someone with his credentials, because everything above that line is
-  goodwill and everything below it is wages.
+  market pays someone with his credentials, because everything above that line
+  is goodwill and everything below it is wages.
 dek: Goodwill has been marital property since 1983. The modern fight is whether
   this owner has any beyond the market price of his own labor.
 pillar: Valuation
 tags:
-  - Matrimonial
-  - Goodwill
   - Valuation Methodology
+  - Matrimonial
 date: 2026-08-08
 readTime: 10 min read
 draft: true
 ---
-
 A tax partner at a large New Jersey firm went through a divorce. He had joined out of law school in 1978, made equity partner in 1984, and billed over two thousand hours a year in a narrow specialty. He originated almost nothing. His work came from other partners, and his interest in the firm was governed by a shareholder agreement that expressed it as a termination credit account the compensation committee replenished each December.
 
 His wife's expert valued the goodwill in that partnership interest at roughly $1.2 million, on top of the account balance. His own expert found none. Not a smaller number — none. The account already captured his interest, the expert reasoned, because the partner was paid what the market paid a lawyer with his credentials doing his work. There were no excess earnings to capitalize.
