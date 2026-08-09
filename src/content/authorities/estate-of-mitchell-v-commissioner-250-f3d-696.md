@@ -9,6 +9,7 @@ jurisdiction: "Federal"
 precedential: true
 holding: "A key-person discount is a going-concern adjustment applied to enterprise value, before shareholder-level discounts, to reflect the loss of a founder whose reputation and creativity drive the business. Its size is a question of evidence: a valuation the court cannot trace to a stated methodology will not survive review, and the court vacated and remanded where the Tax Court failed to shift the burden of proof to the Commissioner and failed to explain how it derived its figures."
 topics: ["Discounts & Premiums", "Goodwill", "Appraisal"]
+headnoteApproved: true
 archived: false
 sourceUrl: "https://www.courtlistener.com/opinion/773313/estate-of-paul-mitchell-deceased-patrick-t-fujieki-v-commissioner-of/"
 sourceName: "CourtListener"
