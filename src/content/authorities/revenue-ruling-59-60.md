@@ -8,13 +8,10 @@ precedential: true
 holding: "When market quotations are unavailable, the fair market value of closely held stock is determined from all available financial data and all relevant factors under the hypothetical willing-buyer and willing-seller standard; no single formula controls."
 topics: ["Fair Market Value", "Valuation Methodology", "Hypothetical Buyer"]
 headnoteApproved: true
-archived: true
-format: text
-localCopy: "/authorities/revenue-ruling-59-60.txt"
+archived: false
 sourceUrl: "https://www.irs.gov/pub/irs-lbi/S%20Corporation%20Valuation%20Job%20Aid%20for%20IRS%20Valuation%20Professionals.pdf"
 sourceName: "Internal Revenue Service (ruling reproduced in Appendix A)"
 retrieved: 2026-08-07
-sha1: "537489e82d4120d6676c14b70f25d59c8a46baa3"
 ---
 
 Revenue Ruling 59-60 supplies the federal tax framework for valuing closely held stock when no active market quotation exists. Fair market value is the price at which property would change hands between a hypothetical willing buyer and willing seller, neither under compulsion and both reasonably informed. The inquiry considers the nature and history of the business, economic and industry outlook, book value, earning capacity, dividend capacity, goodwill and other intangibles, prior stock sales, and comparable-company market data.
