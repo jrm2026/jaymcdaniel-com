@@ -28,7 +28,7 @@ The Appellate Division reversed. The error was not arithmetic. It was that the j
 
 New Jersey came at this backwards, which turned out to be useful.
 
-In [*Stern v. Stern*](/authorities/stern-v-stern-66-nj-340/), 66 N.J. 340 (1975), a partner in a well-known firm challenged the treatment of his earning capacity as a distinct item of property. The Court agreed with him. Earning capacity, "even where its development has been aided and enhanced by the other spouse," is not property under N.J.S.A. 2A:34-23. It informs what distribution is equitable and it bears more heavily on alimony. It is not an asset. In a footnote, the Court added that the good will of a law firm could not ethically be sold, but might still be proved to exist as "a real element of economic worth."
+In [*Stern v. Stern*](/authorities/stern-v-stern-66-nj-340/), 66 N.J. 340 (1975), a partner in a well-known firm challenged the treatment of his earning capacity as a distinct item of property. The Court agreed with him. Earning capacity, "even where its development has been aided and enhanced by the other spouse," is not property under [N.J.S.A. 2A:34-23](/authorities/njsa-2a-34-23/). It informs what distribution is equitable and it bears more heavily on alimony. It is not an asset. In a footnote, the Court added that the good will of a law firm could not ethically be sold, but might still be proved to exist as "a real element of economic worth."
 
 [*Dugan v. Dugan*](/authorities/dugan-v-dugan-92-nj-423/), 92 N.J. 423 (1983), took up that footnote. James Dugan practiced through a professional corporation he owned outright. The Court asked three questions in order: does goodwill exist here, is it property subject to equitable distribution, and how is it valued.
 
@@ -72,7 +72,7 @@ The husband's expert had never said the firm lacked goodwill. He said this partn
 
 On remand the panel required findings on the threshold excess-earnings question, an evaluation of the shareholder agreement as a measure of firm value including goodwill, and a realistic projection of the partner's remaining term. The wife's expert had assumed equity participation to age seventy. Firm policy permitted a shift to salaried senior status at sixty-five, and if that was the likely path, the assumption inflated goodwill by five years of excess earnings that were never going to be earned.
 
-Then the instruction that is easy to miss. Invoking the catch-all equitable distribution factor, N.J.S.A. 2A:34-23.1(p), the panel directed that "a measure of consideration must be given to the lack of intrinsic value associated with any amount determined as individual goodwill." That is statutory authority to award the non-titled spouse less than half of an asset the titled spouse can never sell and must fund with cash. It answers the equity problem *Dugan* identified in 1983 and then left open for thirty-four years.
+Then the instruction that is easy to miss. Invoking the catch-all equitable distribution factor, [N.J.S.A. 2A:34-23.1(p)](/authorities/njsa-2a-34-23-1/), the panel directed that "a measure of consideration must be given to the lack of intrinsic value associated with any amount determined as individual goodwill." That is statutory authority to award the non-titled spouse less than half of an asset the titled spouse can never sell and must fund with cash. It answers the equity problem *Dugan* identified in 1983 and then left open for thirty-four years.
 
 ## The agreement is evidence, and it carries a presumption
 
@@ -96,7 +96,7 @@ Read alongside *Slutsky*, the point sharpens. The excess earnings capitalized in
 
 *Stern*'s footnote rested on advisory ethics opinions from 1964 and 1965 holding that the good will of a law firm could not be sold. *Dugan* accepted the premise and distributed goodwill anyway.
 
-New Jersey adopted RPC 1.17 in October 1992. A lawyer or firm may now sell a law practice, or an area of practice, good will included, subject to conditions on client notice and fees. Admission to or withdrawal from a partnership is expressly not a sale for purposes of the rule.
+New Jersey adopted [RPC 1.17](/authorities/rpc-1-17/) in October 1992. A lawyer or firm may now sell a law practice, or an area of practice, good will included, subject to conditions on client notice and fees. Admission to or withdrawal from a partnership is expressly not a sale for purposes of the rule.
 
 No published New Jersey decision has revisited *Dugan*'s reasoning in that light, and *Slutsky* did not raise it. The doctrinal effect is probably modest — *Dugan* held that unsalability does not defeat goodwill, so salability does not disturb the holding. The evidentiary effect is not modest. Transactions in professional practices now happen, and an appraiser who can anchor a capitalization factor to observed transactions stands on firmer ground than one deriving it from the *Dugan* factors alone. Expect the argument before the case law catches up to it.
 
@@ -135,7 +135,7 @@ It carries a presumption. Under [*Stern v. Stern*](/authorities/stern-v-stern-66
 Yes, subject to fairness review. [*Steneken v. Steneken*](/authorities/steneken-v-steneken-183-nj-290/), 183 N.J. 290 (2005), held that normalizing compensation for valuation while using actual income for alimony is not impermissible double counting, but the court must assess the combined result under an overarching concept of fairness. That assessment has to be requested.
 
 **What does a goodwill award actually cost me?**
-Cash for something you cannot sell. *Slutsky* directs courts to weigh that under the catch-all equitable distribution factor, N.J.S.A. 2A:34-23.1(p), which supports an award of less than half. Payment terms, tax effects, and the alimony interaction belong in the same conversation.
+Cash for something you cannot sell. *Slutsky* directs courts to weigh that under the catch-all equitable distribution factor, [N.J.S.A. 2A:34-23.1(p)](/authorities/njsa-2a-34-23-1/), which supports an award of less than half. Payment terms, tax effects, and the alimony interaction belong in the same conversation.
 
 ---
 
