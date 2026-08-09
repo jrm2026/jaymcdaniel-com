@@ -14,7 +14,7 @@ tags:
   - Matrimonial
 date: 2026-08-08
 readTime: 10 min read
-draft: true
+draft: false
 ---
 A tax partner at a large New Jersey firm went through a divorce. He had joined out of law school in 1978, made equity partner in 1984, and billed over two thousand hours a year in a narrow specialty. He originated almost nothing. His work came from other partners, and his interest in the firm was governed by a shareholder agreement that expressed it as a termination credit account the compensation committee replenished each December.
 
