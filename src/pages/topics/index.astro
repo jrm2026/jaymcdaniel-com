@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { allTags, pillarCounts } from '../../lib/posts';
+import { SITE, PILLARS } from '../../lib/site';
+
+const tags = await allTags();
+const promoted = tags.filter((t) => t.promoted);
+const emerging = tags.filter((t) => !t.promoted);
+const counts = await pillarCounts();
+---
+<BaseLayout
+  title={`Topics — ${SITE.name}`}
+  description="Browse Jay McDaniel's writing by subject — the three pillars and the cross-cutting topics that run through valuation, business divorce, and exit."
+>
+  <div class="wrap">
+    <div class="layout">
+      <div>
+        <div class="headnote">
+          <div class="kicker">Topics</div>
+          <h1>Browse by subject.</h1>
+          <p>The three pillars are the practice. Cross-cutting topics are the threads that run through more than one of them &mdash; a matter that is at once a valuation and a tax question, or a divorce and a buyout.</p>
+        </div>
+
+        <section class="topicset">
+          <h2>Pillars</h2>
+          <ul class="topiclist">
+            {PILLARS.map((p) => (
+              <li>
+                <a href={`/${p.slug}/`}>
+                  <span class="tl-label">{p.label}</span>
+                  <span class="tl-count">{counts[p.label] ?? 0}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {promoted.length > 0 && (
+          <section class="topicset">
+            <h2>Cross-cutting topics</h2>
+            <ul class="topiclist">
+              {promoted.map((t) => (
+                <li>
+                  <a href={`/topic/${t.slug}/`}>
+                    <span class="tl-label">{t.label}</span>
+                    <span class="tl-count">{t.count}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {emerging.length > 0 && (
+          <section class="topicset">
+            <h2>Also written about</h2>
+            <p class="emerging-note">Subjects that have appeared once so far. They get their own page once a second piece covers them.</p>
+            <p class="emerging">
+              {emerging.map((t) => <span class="elabel">{t.label}</span>)}
+            </p>
+          </section>
+        )}
+      </div>
+
+      <Sidebar />
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .topicset { margin: 26px 0 8px; }
+  .topicset h2 { font-family: var(--sans); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--oxblood); font-weight: 600; margin: 0 0 12px; }
+  .topiclist { list-style: none; margin: 0 0 6px; padding: 0; }
+  .topiclist li { border-bottom: 1px solid var(--line); }
+  .topiclist a { display: flex; justify-content: space-between; align-items: baseline; padding: 13px 0; text-decoration: none; color: var(--ink); font-size: 17px; }
+  .topiclist a:hover { color: var(--accent); }
+  .tl-count { font-family: var(--sans); font-size: 12px; color: var(--faint); }
+  .emerging-note { font-size: 14px; color: var(--muted); margin: 0 0 12px; }
+  .emerging { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
+  .elabel { font-family: var(--sans); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border: 1px dashed var(--line); border-radius: 30px; padding: 6px 13px; }
+</style>

@@ -1,9 +1,9 @@
 ---
-import { SITE, PILLARS, tagSlug, mailto } from '../lib/site';
-import { pillarCounts } from '../lib/posts';
+import { SITE, PILLARS, mailto } from '../lib/site';
+import { pillarCounts, allTags } from '../lib/posts';
 const counts = await pillarCounts();
-// Cross-cutting tag rows shown under the pillars in the topic list.
-const extraTopics = ['Matrimonial', 'Tax Controversy'];
+// Cross-cutting tags shown under the pillars — only those with their own page.
+const extraTopics = (await allTags()).filter((t) => t.promoted);
 ---
 <aside>
   <div class="box accent">
@@ -38,8 +38,9 @@ const extraTopics = ['Matrimonial', 'Tax Controversy'];
         <li><a href={`/${p.slug}/`}>{p.label} <span class="ct">{counts[p.label] ?? 0}</span></a></li>
       ))}
       {extraTopics.map((t) => (
-        <li><a href={`/topic/${tagSlug(t)}/`}>{t}</a></li>
+        <li><a href={`/topic/${t.slug}/`}>{t.label} <span class="ct">{t.count}</span></a></li>
       ))}
+      <li><a href="/topics/">All topics <span class="ct">&rarr;</span></a></li>
     </ul>
   </div>
 </aside>

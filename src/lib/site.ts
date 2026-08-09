@@ -75,6 +75,13 @@ export function tagSlug(tag: string): string {
   return TAG_SLUGS[tag] ?? tag.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
+// A tag earns its own /topic/[tag]/ archive page (and a link in the topic index
+// and sidebar) only once this many posts carry it. Below the threshold a tag
+// still renders — as a plain, unlinked label — but gets no page, so the site
+// never ships thin, near-empty archive pages that read as low-value content.
+// Lower to 1 to give every tag a page as the archive fills out.
+export const TAG_INDEX_MIN = 2;
+
 export function pillarBySlug(slug: string) {
   return PILLARS.find((p) => p.slug === slug);
 }

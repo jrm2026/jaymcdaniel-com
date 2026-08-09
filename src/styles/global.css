@@ -170,6 +170,7 @@ footer.site .attorney-advertising p{font-size:11.5px;line-height:1.65;margin:0}
 .tagrow{display:flex;flex-wrap:wrap;gap:8px;margin:32px 0 0}
 .tagrow a{font-family:var(--sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--oxblood);text-decoration:none;border:1px solid var(--line);border-radius:30px;padding:6px 13px}
 .tagrow a:hover{border-color:var(--oxblood)}
+.tagrow .tag-plain{font-family:var(--sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--line);border-radius:30px;padding:6px 13px}
 
 .endsub{background:var(--accent);color:#fff;border-radius:8px;padding:26px;margin:38px 0 0}
 .endsub h3{font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 10px;color:#fff}
