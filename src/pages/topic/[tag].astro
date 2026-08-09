@@ -2,19 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import PostRow from '../../components/PostRow.astro';
-import { allPosts } from '../../lib/posts';
+import { allPosts, allTags } from '../../lib/posts';
 import { SITE, tagSlug } from '../../lib/site';
 
 export async function getStaticPaths() {
   const posts = await allPosts();
-  const tagMap = new Map<string, { label: string; slug: string }>();
-  for (const p of posts) {
-    for (const t of p.data.tags) {
-      const slug = tagSlug(t);
-      if (!tagMap.has(slug)) tagMap.set(slug, { label: t, slug });
-    }
-  }
-  return Array.from(tagMap.values()).map((tag) => ({
+  // Only tags that have crossed TAG_INDEX_MIN get a page. Thinner tags render as
+  // plain labels elsewhere and resolve here to nothing (no orphan pages).
+  const tags = (await allTags()).filter((t) => t.promoted);
+  return tags.map((tag) => ({
     params: { tag: tag.slug },
     props: { tag, posts: posts.filter((p) => p.data.tags.map(tagSlug).includes(tag.slug)) },
   }));

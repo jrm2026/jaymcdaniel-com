@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Search from 'astro-pagefind/components/Search.astro';
 
 const all = await getCollection('authorities');
 const live = all
@@ -36,6 +37,17 @@ const grouped = order
     decides and why it matters to an owner of a closely held business.
   </p>
 
+  <div class="authsearch">
+    <Search
+      className="pf"
+      searchboxOptions={{
+        placeholder: 'Search cases, statutes, and citations…',
+        'show-images': 'false',
+        'default-message': 'Type a case name, citation, or statute.',
+      }}
+    />
+  </div>
+
   {grouped.map(({ j, items }) => (
     <section>
       <h2>{label[j]}</h2>
@@ -57,6 +69,23 @@ const grouped = order
 
 <style>
   .intro { max-width: 40rem; }
+  /* Theme the Pagefind searchbox to the site palette. These --pf-* custom
+     properties inherit into the component's shadow DOM. */
+  .authsearch {
+    margin: 0 0 2.4rem;
+    max-width: 40rem;
+    --pf-font: var(--sans);
+    --pf-background: var(--card);
+    --pf-text: var(--ink);
+    --pf-text-secondary: var(--muted);
+    --pf-text-muted: var(--faint);
+    --pf-border: var(--line);
+    --pf-border-focus: var(--accent);
+    --pf-outline-focus: var(--accent);
+    --pf-hover: var(--paper);
+    --pf-mark: var(--oxblood);
+    --pf-border-radius: 8px;
+  }
   .list { list-style: none; padding: 0; }
   .list li { margin: 0 0 1.6rem; }
   .list a { text-decoration: none; display: block; }

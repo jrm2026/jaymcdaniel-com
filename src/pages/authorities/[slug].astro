@@ -45,11 +45,11 @@ const jsonld = [
   jsonld={jsonld}
 >
   <div class="page-wrap">
-  <article class="authority">
-    <p class="kicker"><a href="/authorities/">Authorities</a></p>
+  <article class="authority" data-pagefind-body>
+    <p class="kicker" data-pagefind-ignore><a href="/authorities/">Authorities</a></p>
 
-    <h1>{d.title}</h1>
-    <p class="citation">{d.citation}</p>
+    <h1 data-pagefind-meta="title">{d.title}</h1>
+    <p class="citation" data-pagefind-meta="citation">{d.citation}</p>
 
     <dl class="meta">
       {d.court && (<><dt>Court</dt><dd>{d.court}</dd></>)}
@@ -62,7 +62,7 @@ const jsonld = [
       <p class="holding">{d.holding}</p>
     )}
 
-    <div class="copy">
+    <div class="copy" data-pagefind-ignore>
       {d.archived && d.localCopy ? (
         <p>
           <a class="download" href={d.localCopy}>
@@ -94,7 +94,7 @@ const jsonld = [
       </p>
     )}
 
-    <p class="disclaimer">
+    <p class="disclaimer" data-pagefind-ignore>
       Opinions and statutes reproduced here are works of government and are not subject to copyright.
       The commentary is my own and is not legal advice.
     </p>

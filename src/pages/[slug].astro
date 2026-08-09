@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { allPosts, postsByPillar, fmtDate } from '../lib/posts';
+import { allPosts, postsByPillar, fmtDate, promotedTagSlugs } from '../lib/posts';
 import { SITE, pillarByLabel, tagSlug, mailto } from '../lib/site';
 
 export async function getStaticPaths() {
@@ -13,6 +13,8 @@ const { post } = Astro.props;
 const { data } = post;
 const { Content } = await render(post);
 const pillar = pillarByLabel(data.pillar);
+// Only tags with their own archive page render as links; the rest are labels.
+const promoted = await promotedTagSlugs();
 
 // Related: same pillar, newest first, excluding this one.
 const related = (await postsByPillar(data.pillar)).filter((p) => p.id !== post.id).slice(0, 3);
@@ -72,7 +74,11 @@ const faqSchema = {
 
     {data.tags.length > 0 && (
       <div class="tagrow">
-        {data.tags.map((t) => <a href={`/topic/${tagSlug(t)}/`}>{t}</a>)}
+        {data.tags.map((t) => (
+          promoted.has(tagSlug(t))
+            ? <a href={`/topic/${tagSlug(t)}/`}>{t}</a>
+            : <span class="tag-plain">{t}</span>
+        ))}
       </div>
     )}
 
