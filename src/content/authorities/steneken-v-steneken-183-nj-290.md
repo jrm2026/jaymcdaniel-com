@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "Valuing a closely held business using normalized owner compensation while setting alimony from actual income is not impermissible double counting; actual income remains the lodestar for alimony. But the interplay between equitable distribution and alimony is subject to an overarching concept of fairness."
 topics: ["Valuation Methodology", "Matrimonial"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 sourceUrl: "https://www.courtlistener.com/opinion/1903155/steneken-v-steneken/"
 sourceName: "CourtListener"

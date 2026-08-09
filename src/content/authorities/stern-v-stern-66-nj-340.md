@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "Earning capacity is not an asset subject to equitable distribution, though it bears on what distribution is equitable and on alimony. Where a partnership or shareholder agreement fixes an interest's value and the firm's books are well kept and interests are periodically and carefully reviewed, that valuation may be displaced only by clear and convincing proof."
 topics: ["Goodwill", "Fair Value Standard", "Matrimonial", "Buy-Sell"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 sourceUrl: "https://www.courtlistener.com/opinion/1479917/stern-v-stern/"
 sourceName: "CourtListener"

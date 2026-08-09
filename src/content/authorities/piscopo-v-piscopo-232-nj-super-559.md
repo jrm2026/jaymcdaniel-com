@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "Celebrity goodwill — a performer's reputation and the probability that past earnings continue — is property subject to equitable distribution; the difficulty of valuing it does not affect its includability in the marital estate."
 topics: ["Goodwill", "Matrimonial"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 sourceUrl: "https://www.courtlistener.com/opinion/2387649/piscopo-v-piscopo/"
 sourceName: "CourtListener"

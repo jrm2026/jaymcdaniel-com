@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "Professional goodwill is measured by an excess-earnings method: the amount by which the practitioner's normalized earnings exceed what a comparably credentialed employee would earn, capitalized over the years a purchaser would pay for in advance."
 topics: ["Goodwill", "Valuation Methodology", "Matrimonial"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 sourceUrl: "https://www.courtlistener.com/opinion/2173107/levy-v-levy/"
 sourceName: "CourtListener"

@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "Where a captive agent operates a business whose goodwill belongs to the principal rather than the agent, there is no distributable goodwill in the agent's hands, even though the business plainly enjoys goodwill."
 topics: ["Goodwill", "Matrimonial"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 sourceUrl: "https://www.courtlistener.com/opinion/7403021/seiler-v-seiler/"
 sourceName: "CourtListener"

@@ -28,7 +28,7 @@ The Appellate Division reversed. The error was not arithmetic. It was that the j
 
 New Jersey came at this backwards, which turned out to be useful.
 
-In *Stern v. Stern*, 66 N.J. 340 (1975), a partner in a well-known firm challenged the treatment of his earning capacity as a distinct item of property. The Court agreed with him. Earning capacity, "even where its development has been aided and enhanced by the other spouse," is not property under N.J.S.A. 2A:34-23. It informs what distribution is equitable and it bears more heavily on alimony. It is not an asset. In a footnote, the Court added that the good will of a law firm could not ethically be sold, but might still be proved to exist as "a real element of economic worth."
+In [*Stern v. Stern*](/authorities/stern-v-stern-66-nj-340/), 66 N.J. 340 (1975), a partner in a well-known firm challenged the treatment of his earning capacity as a distinct item of property. The Court agreed with him. Earning capacity, "even where its development has been aided and enhanced by the other spouse," is not property under N.J.S.A. 2A:34-23. It informs what distribution is equitable and it bears more heavily on alimony. It is not an asset. In a footnote, the Court added that the good will of a law firm could not ethically be sold, but might still be proved to exist as "a real element of economic worth."
 
 [*Dugan v. Dugan*](/authorities/dugan-v-dugan-92-nj-423/), 92 N.J. 423 (1983), took up that footnote. James Dugan practiced through a professional corporation he owned outright. The Court asked three questions in order: does goodwill exist here, is it property subject to equitable distribution, and how is it valued.
 
@@ -42,7 +42,7 @@ The Court also named the equity problem it was creating. The titled spouse is "f
 
 ## What Dugan actually measures
 
-*Dugan* supplied a method, borrowed from *Levy v. Levy*, 164 N.J. Super. 542 (Ch. Div. 1978). It is an excess-earnings method, not a market method.
+*Dugan* supplied a method, borrowed from [*Levy v. Levy*](/authorities/levy-v-levy-164-nj-super-542/), 164 N.J. Super. 542 (Ch. Div. 1978). It is an excess-earnings method, not a market method.
 
 Determine what a lawyer of comparable experience, expertise, education, and age would earn as an employee in the same general locale. Average the practitioner's net income before federal and state taxes over a period of years, preferably five. Compare the two. If the actual average realistically exceeds the sum of that employee norm and a return on the investment in physical assets, the excess is the basis for valuing goodwill. Capitalize it — the number of years of excess earnings a purchaser would pay for in advance — adjusting for factors including the practitioner's age, because goodwill of this kind terminates on death.
 
@@ -60,13 +60,13 @@ It does not need to. The reasonable-compensation deduction performs the same fun
 
 The consequence is practical. In New Jersey the personal-goodwill fight is not a doctrinal argument. It is an argument about reasonable compensation, conducted in front of a judge who may not realize that is what is happening. Counsel who frame it as a question of law give up the useful ground.
 
-The reported cases are best read as a set of entity types rather than one rule. A solo owner of a professional corporation is *Dugan* itself. A captive agent owns nothing — in *Seiler v. Seiler*, 308 N.J. Super. 474 (App. Div. 1998), the husband ran an exclusive Allstate agency where Allstate owned the equipment, assigned the telephone number, designed the advertising, and controlled hiring; goodwill existed, but it belonged to Allstate. A performer's reputation is distributable: *Piscopo v. Piscopo*, 232 N.J. Super. 559 (App. Div. 1989), carried *Dugan* to celebrity goodwill and measured it by past earning capacity and the probability that past earnings continue, holding that difficulty of valuation did not affect includability. An operating company runs on the same framework with the standard-of-value overlay discussed below.
+The reported cases are best read as a set of entity types rather than one rule. A solo owner of a professional corporation is *Dugan* itself. A captive agent owns nothing — in [*Seiler v. Seiler*](/authorities/seiler-v-seiler-308-nj-super-474/), 308 N.J. Super. 474 (App. Div. 1998), the husband ran an exclusive Allstate agency where Allstate owned the equipment, assigned the telephone number, designed the advertising, and controlled hiring; goodwill existed, but it belonged to Allstate. A performer's reputation is distributable: [*Piscopo v. Piscopo*](/authorities/piscopo-v-piscopo-232-nj-super-559/), 232 N.J. Super. 559 (App. Div. 1989), carried *Dugan* to celebrity goodwill and measured it by past earning capacity and the probability that past earnings continue, holding that difficulty of valuation did not affect includability. An operating company runs on the same framework with the standard-of-value overlay discussed below.
 
 An equity partner in a large firm is the hard case. It is also where the law moved most recently.
 
 ## Firm goodwill is not partner goodwill
 
-*Slutsky v. Slutsky*, 451 N.J. Super. 332 (App. Div. 2017), is the case that opened this article, and it is the one matrimonial counsel most often cite for the wrong proposition.
+[*Slutsky v. Slutsky*](/authorities/slutsky-v-slutsky-451-nj-super-332/), 451 N.J. Super. 332 (App. Div. 2017), is the case that opened this article, and it is the one matrimonial counsel most often cite for the wrong proposition.
 
 The husband's expert had never said the firm lacked goodwill. He said this partner had none beyond his compensation. A finding that the enterprise enjoys reputation establishes nothing about whether a particular non-originating partner's earnings exceed the market rate for his labor. Those are different questions, and the trial court had answered only the easy one.
 
@@ -88,7 +88,7 @@ The buyout side of the practice supplies the mirror image. In [*Namerow v. Pedia
 
 That result does not travel automatically into a business divorce. [*Balsamides v. Protameen Chemicals, Inc.*](/authorities/balsamides-v-protameen-160-nj-352/), 160 N.J. 352 (1999), sustained a marketability discount in an oppression buyout where the oppressor was the seller and the oppressed shareholder the buyer, because equity required it. [*Lawson Mardon Wheaton, Inc. v. Smith*](/authorities/lawson-mardon-wheaton-v-smith-160-nj-383/), 160 N.J. 383 (1999), decided the same day, held the discount ordinarily improper in a dissenters' rights appraisal. An expert who imports the matrimonial rule into a buyout, or the reverse, has answered a question the case did not ask.
 
-Then the interaction that determines how much of the goodwill number the titled spouse actually pays. In *Steneken v. Steneken*, 183 N.J. 290 (2005), the Court considered whether it is impermissible double counting to value a closely held business using normalized owner compensation while setting alimony from actual income. It held that it is not — actual income remains the lodestar for alimony — but that the interplay between alimony and equitable distribution is subject to an overarching concept of fairness, given the interrelated yet separate purposes of the two.
+Then the interaction that determines how much of the goodwill number the titled spouse actually pays. In [*Steneken v. Steneken*](/authorities/steneken-v-steneken-183-nj-290/), 183 N.J. 290 (2005), the Court considered whether it is impermissible double counting to value a closely held business using normalized owner compensation while setting alimony from actual income. It held that it is not — actual income remains the lodestar for alimony — but that the interplay between alimony and equitable distribution is subject to an overarching concept of fairness, given the interrelated yet separate purposes of the two.
 
 Read alongside *Slutsky*, the point sharpens. The excess earnings capitalized into a goodwill figure are the same earnings that will fund alimony for years. Nothing forbids using both. Everything requires the court to explain why the combined result is fair. Counsel who does not put that argument on the record has waived the most valuable adjustment available.
 
@@ -126,13 +126,13 @@ The analysis does not stay in the matrimonial part. Excess earnings, normalized 
 No. It is distributable only if it exists, and it exists only where reputation produces probable future patronage generating earnings above what a comparably qualified employee would earn. A practitioner paid the market rate for his labor may have no distributable goodwill. [*Dugan v. Dugan*](/authorities/dugan-v-dugan-92-nj-423/), 92 N.J. 423 (1983).
 
 **My firm has an excellent reputation. Doesn't that mean my partnership interest includes goodwill?**
-Not by itself. *Slutsky v. Slutsky*, 451 N.J. Super. 332 (App. Div. 2017), holds that firm-level reputation does not establish partner-level goodwill. The question is whether your compensation exceeds what a lawyer with your credentials, in your specialty, working your hours, would be paid elsewhere.
+Not by itself. [*Slutsky v. Slutsky*](/authorities/slutsky-v-slutsky-451-nj-super-332/), 451 N.J. Super. 332 (App. Div. 2017), holds that firm-level reputation does not establish partner-level goodwill. The question is whether your compensation exceeds what a lawyer with your credentials, in your specialty, working your hours, would be paid elsewhere.
 
 **Does the buy-sell formula in my partnership agreement control?**
-It carries a presumption. Under *Stern v. Stern*, 66 N.J. 340 (1975), where the books are well kept and partners' interests are periodically and carefully reviewed, the agreement's valuation can be displaced only by clear and convincing proof. It is the starting point and often the ending point.
+It carries a presumption. Under [*Stern v. Stern*](/authorities/stern-v-stern-66-nj-340/), 66 N.J. 340 (1975), where the books are well kept and partners' interests are periodically and carefully reviewed, the agreement's valuation can be displaced only by clear and convincing proof. It is the starting point and often the ending point.
 
 **Can the same earnings be used both to value the business and to set alimony?**
-Yes, subject to fairness review. *Steneken v. Steneken*, 183 N.J. 290 (2005), held that normalizing compensation for valuation while using actual income for alimony is not impermissible double counting, but the court must assess the combined result under an overarching concept of fairness. That assessment has to be requested.
+Yes, subject to fairness review. [*Steneken v. Steneken*](/authorities/steneken-v-steneken-183-nj-290/), 183 N.J. 290 (2005), held that normalizing compensation for valuation while using actual income for alimony is not impermissible double counting, but the court must assess the combined result under an overarching concept of fairness. That assessment has to be requested.
 
 **What does a goodwill award actually cost me?**
 Cash for something you cannot sell. *Slutsky* directs courts to weigh that under the catch-all equitable distribution factor, N.J.S.A. 2A:34-23.1(p), which supports an award of less than half. Payment terms, tax effects, and the alimony interaction belong in the same conversation.

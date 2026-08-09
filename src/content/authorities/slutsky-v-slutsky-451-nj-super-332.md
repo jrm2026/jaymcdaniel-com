@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "A finding that a firm enjoys goodwill does not establish that a particular non-originating partner has goodwill beyond his compensation; the court must make findings on the threshold excess-earnings question. Under N.J.S.A. 2A:34-23.1(p), consideration must be given to the lack of intrinsic value of individual goodwill, supporting an award to the non-titled spouse of less than half."
 topics: ["Goodwill", "Valuation Methodology", "Matrimonial", "Buy-Sell"]
-headnoteApproved: false
+headnoteApproved: true
 archived: false
 sourceUrl: "https://www.courtlistener.com/opinion/4416758/nancy-g-slutsky-vs-kenneth-j-slutsky-fm-14-1535-08-morris-county-and/"
 sourceName: "CourtListener"
