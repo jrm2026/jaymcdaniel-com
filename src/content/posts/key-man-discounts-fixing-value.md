@@ -15,7 +15,7 @@ tags:
   - Estate & Gift
 date: 2026-07-14
 readTime: 9 min read
-draft: true
+draft: false
 ---
 When Paul Mitchell died in 1989, he was the public face of the hair-care company that carried his name.  When the estate filed its return it reported the stock at $28.5 million. The IRS came back with $105 million. 
 
