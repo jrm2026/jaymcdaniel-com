@@ -1,15 +1,25 @@
 ---
-title: "How Key-Man Discounts Actually Work When Fixing the Value of a Business"
-answerFirst: "When one person is the business, a key-man discount is real — but it is never automatic, and the other side will fight its size. It sticks only when the record shows that the enterprise's earnings genuinely depend on a single owner and that the dependence cannot be cured at reasonable cost."
-dek: "When one person is the business, the discount is real — but it is not automatic, and the other side will fight its size. Here is what makes it stick."
-pillar: "Valuation"
-tags: ["Valuation Methodology", "Discounts & Premiums", "Estate & Gift"]
+title: How Key-Man Discounts Actually Work When Fixing the Value of a Business
+slug: key-man-discounts-fixing-value
+answerFirst: When one person is the business, a key-man discount is real — but
+  it is never automatic, and the other side will fight its size. It sticks only
+  when the record shows that the enterprise's earnings genuinely depend on a
+  single owner and that the dependence cannot be cured at reasonable cost.
+dek: When one person is the business, the discount is real — but it is not
+  automatic, and the other side will fight its size. Here is what makes it
+  stick.
+pillar: Valuation
+tags:
+  - Valuation Methodology
+  - Discounts & Premiums
+  - Estate & Gift
 date: 2026-07-14
-readTime: "9 min read"
+readTime: 9 min read
 draft: true
 ---
+When Paul Mitchell died in 1989, he was the public face of the hair-care company that carried his name.  When the estate filed its return it reported the stock at $28.5 million. The IRS came back with $105 million. 
 
-Paul Mitchell died in 1989. He was the public face of the hair-care company that carried his name, and when the estate filed its return it reported the stock at $28.5 million. The IRS came back with $105 million. The gap between those two numbers was not a dispute about revenue or margins. It was a dispute about how much of the company walked out the door in the coffin.
+The gap between those two numbers was not a dispute about revenue or margins. It was a dispute about how much of the company walked out the door in the coffin.
 
 The Tax Court took a $150 million enterprise value and cut it by ten percent — $15 million — for the loss of Mitchell's public presence and creativity, before it ever reached the discounts for lack of control and marketability. That ten percent is a key-man discount. The Ninth Circuit later vacated the valuation and sent it back, not because the discount was wrong, but because the court had not explained how it got there. *Estate of Mitchell v. Commissioner*, 250 F.3d 696 (9th Cir. 2001); *Estate of Mitchell v. Commissioner*, 74 T.C.M. (CCH) 872 (1997).
 
@@ -35,7 +45,7 @@ It fails when it is asserted rather than shown. "The owner is essential" is a co
 
 Every fact that makes the dependence curable shrinks the number, because each one reduces the risk the buyer is being asked to absorb.
 
-A management team already running operations. Customer contracts that are assignable and not personal. Documented processes, a trained second tier, a real succession plan. An employment agreement or earn-out that retains the key person through transition, so the buyer gets the handoff he is paying to avoid losing. Key-person life insurance payable to the company, which converts the death risk into cash on the balance sheet. An enforceable non-compete, which stops the departing owner from taking the goodwill across the street.
+A management team already running operations. Customer contracts that are assignable and not personal. Documented processes, a trained second tier, a real succession plan. An employment agreement or earn-out that retains the key person through transition, so the buyer gets the handoff he is paying to avoid losing. Key-person life insurance payable to the company, which converts the death risk into cash on the balance sheet. An enforceable non-compete agreement that stops the departing owner from taking the goodwill across the street.
 
 Each of these is a partial answer to the question the discount asks. The owner arguing for the discount wants none of them in the record. The owner arguing against it builds the case out of exactly these facts: the person is important, but the business would survive his exit, and here is the infrastructure that proves it. The number turns on how much of the dependence money and planning have already cured — because whatever can be replaced at reasonable cost is not a discount, it is an expense, and it belongs in normalized earnings, not in a haircut to value.
 
