@@ -11,12 +11,12 @@ holding: "In a long-running family business oppression case, a marketability dis
 topics: ["Discounts & Premiums", "Fair Value Standard", "Oppression"]
 headnoteApproved: true
 archived: true
-format: text
-localCopy: "/authorities/wisniewski-v-walsh-2015-nj-super-unpub-lexis-3001.txt"
+format: pdf
+localCopy: "/authorities/wisniewski-v-walsh-2015-nj-super-unpub-lexis-3001.pdf"
 sourceUrl: "https://www.sillscummis.com/wp-content/uploads/2021/07/Wisniewski_v._Walsh_2015_NJ_Super._LEXIS_3001.pdf"
 sourceName: "Sills Cummis & Gross"
-retrieved: 2026-08-08
-sha1: "5dacc2167b3a22217769f9df6a4ea1727c2269e7"
+retrieved: 2026-08-16
+sha1: "4e5d84348e257d538ba8be07031bc655a705ff26"
 ---
 
 *Wisniewski* is the case that shows the edge of New Jersey's equitable approach to discounts. Three siblings owned a closely held trucking company; after a twenty-year fight, Norbert Walsh was found to be the oppressing shareholder and ordered to sell his one-third interest to the two he had harmed. On the case's third trip to the Appellate Division, the court affirmed a twenty-five percent marketability discount applied to the value of that interest — a discount that fell on the oppressor being bought out, not on the oppressed shareholders who were buying him. New Jersey does not treat the marketability discount as categorically barred the way New York does; it asks who is buying, who is selling, and who caused the buyout, and it will let the discount fall on the party whose conduct made the separation necessary.
