@@ -9,7 +9,7 @@ jurisdiction: "DE"
 precedential: true
 holding: "Appraisal values the corporation itself as an operating entity, not a fraction of its shares as they exist in a particular holder's hands. The dissenter receives his proportionate interest in a going concern, and no minority or marketability discount applies at the shareholder level."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
-headnoteApproved: false
+headnoteApproved: true
 archived: true
 format: text
 localCopy: /authorities/cavalier-oil-v-harnett-564-a2d-1137.txt

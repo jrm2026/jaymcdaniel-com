@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "A marketability discount cannot be used unfairly by controlling or oppressing shareholders to benefit themselves at the expense of the minority. Where the oppressor is the seller and the oppressed shareholder is the buyer, the discount applies, because the buyer will bear the company's illiquidity on eventual resale."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Oppression"]
-headnoteApproved: false
+headnoteApproved: true
 archived: true
 format: text
 localCopy: /authorities/balsamides-v-protameen-160-nj-352.txt

@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "A marketability discount should not be applied in determining the fair value of a dissenting shareholder's stock absent extraordinary circumstances. The record was reopened to consider an acquisition price that postdated the valuation date by more than four years."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
-headnoteApproved: false
+headnoteApproved: true
 archived: true
 format: text
 localCopy: /authorities/lawson-mardon-wheaton-v-smith-160-nj-383.txt

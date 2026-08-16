@@ -9,7 +9,7 @@ jurisdiction: "NY"
 precedential: true
 holding: "Fair value measures the minority's proportionate share of enterprise value. A discount for the shares' minority status may not be applied, and the categorical rule does not bend to the facts of a particular holding."
 topics: ["Fair Value Standard", "Discounts & Premiums", "Appraisal"]
-headnoteApproved: false
+headnoteApproved: true
 archived: true
 format: text
 localCopy: /authorities/friedman-v-beway-realty-87-ny2d-161.txt

@@ -9,7 +9,7 @@ jurisdiction: "NJ"
 precedential: true
 holding: "Goodwill is reputation likely to generate future business, and the goodwill of a professional practice is subject to equitable distribution where it has value as a going concern beyond the practitioner's personal earning capacity."
 topics: ["Goodwill", "Fair Value Standard"]
-headnoteApproved: false
+headnoteApproved: true
 archived: true
 format: text
 localCopy: /authorities/dugan-v-dugan-92-nj-423.txt
