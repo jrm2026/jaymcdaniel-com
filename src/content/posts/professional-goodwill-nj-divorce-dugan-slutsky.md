@@ -2,10 +2,10 @@
 title: How Do New Jersey Courts Value Professional Goodwill in a Divorce?
 slug: professional-goodwill-nj-divorce-dugan-slutsky
 answerFirst: New Jersey distributes the goodwill of a professional practice even
-  though the practice often cannot be sold. Dugan settled that in 1983. What
-  decides cases now is narrower — whether this owner's earnings exceed what the
-  market pays someone with his credentials, because everything above that line
-  is goodwill and everything below it is wages.
+  though the practice often cannot be sold. Dugan v. Dugan settled that issue in
+  1983. What decides cases now is narrower — whether this owner's earnings
+  exceed what the market pays someone with his credentials, because everything
+  above that line is goodwill and everything below it is wages.
 dek: Goodwill has been marital property since 1983. The modern fight is whether
   this owner has any beyond the market price of his own labor.
 pillar: Valuation
