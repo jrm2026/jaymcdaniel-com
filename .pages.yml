@@ -132,9 +132,17 @@ content:
         type: string
         required: true
         description: "Official reporter first, regional parallel second."
+      - name: authorityType
+        label: Type of authority
+        type: select
+        required: true
+        options:
+          values: [case, statute, rule, ruling]
+        description: "Drives what the page calls this - the opinion, the statute, the rule, the ruling - and how the issuing body is labelled. Getting it wrong prints a citation error on the page."
       - name: court
-        label: Court
+        label: Issuing body
         type: string
+        description: "The court for a case; the legislature, rule-making court, or agency for everything else."
       - name: decided
         label: Date decided
         type: date
