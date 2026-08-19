@@ -1,10 +1,10 @@
 ---
-title: "Deadlock Isn't a Dead End: Using the Buy-Sell to Force Price Discovery"
-answerFirst: "A well-built shotgun clause turns stalemate into a number. When owners deadlock, a buy-sell that forces one side to name a price at which it will either buy or sell breaks the impasse by making price discovery unavoidable — while a badly built one hands the leverage to whoever moves first or has the deeper pockets."
-dek: "A well-built shotgun clause turns stalemate into a number. A badly built one hands the leverage to whoever moves first."
+title: "Deadlock Buyouts: How the Buy-Sell Sets the Price, and Why It Is Not Fair Value"
+answerFirst: "A buy-sell price, fair value, and a liquidation price are three different numbers, and a deadlock can produce any of them. Which one governs is set by the agreement and by who files first. In New Jersey, pleading deadlock alone reaches the buyout statute without the equitable adjustment or the fee shift."
+dek: "Deadlock sets a price, but not fair value. New Jersey's buyout statute ties the equitable adjustment and fee-shifting to oppression, not deadlock alone."
 pillar: "Business Divorce"
-tags: ["Deadlock", "Buy-Sell"]
-date: 2026-06-02
+tags: ["Deadlock", "Buy-Sell", "Fair Value Standard", "Valuation Methodology"]
+date: 2026-08-19
 readTime: "6 min read"
 ---
 
