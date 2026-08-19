@@ -2,6 +2,7 @@
 title: "Friedman v. Beway Realty Corp."
 slug: friedman-v-beway-realty-87-ny2d-161
 citation: "87 N.Y.2d 161, 661 N.E.2d 972, 638 N.Y.S.2d 399 (1995)"
+authorityType: "case"
 court: "New York Court of Appeals"
 decided: 1995-12-07
 docket: ""

@@ -2,6 +2,7 @@
 title: "Cavalier Oil Corp. v. Harnett"
 slug: cavalier-oil-v-harnett-564-a2d-1137
 citation: "564 A.2d 1137 (Del. 1989)"
+authorityType: "case"
 court: "Supreme Court of Delaware"
 decided: 1989-09-05
 docket: ""

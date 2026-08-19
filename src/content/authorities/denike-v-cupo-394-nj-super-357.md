@@ -2,6 +2,7 @@
 title: "DeNike v. Cupo"
 slug: denike-v-cupo-394-nj-super-357
 citation: "394 N.J. Super. 357, 926 A.2d 869 (App. Div. 2007)"
+authorityType: "case"
 court: "Superior Court of New Jersey, Appellate Division"
 decided: 2007-07-06
 docket: ""

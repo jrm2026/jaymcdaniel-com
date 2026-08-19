@@ -2,6 +2,7 @@
 title: "Estate of Mitchell v. Commissioner"
 slug: estate-of-mitchell-v-commissioner-250-f3d-696
 citation: "250 F.3d 696 (9th Cir. 2001)"
+authorityType: "case"
 court: "United States Court of Appeals for the Ninth Circuit"
 decided: 2001-05-25
 docket: ""

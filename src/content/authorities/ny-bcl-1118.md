@@ -2,6 +2,7 @@
 title: "New York Business Corporation Law § 1118"
 slug: ny-bcl-1118
 citation: "N.Y. Bus. Corp. Law § 1118"
+authorityType: "statute"
 court: "New York Legislature"
 jurisdiction: "NY"
 precedential: true
@@ -9,9 +10,9 @@ holding: "After a qualifying dissolution petition, the corporation or other shar
 topics: ["Oppression", "Buyout Remedy", "Fair Value Standard"]
 headnoteApproved: true
 archived: false
-sourceUrl: "https://www.nysenate.gov/legislation/laws/BSC/1118"
-sourceName: "New York State Senate"
-retrieved: 2026-08-07
+sourceUrl: "https://law.justia.com/codes/new-york/bsc/article-11/1118/"
+sourceName: "Justia — New York Consolidated Laws"
+retrieved: 2026-08-19
 ---
 
 Section 1118 permits the corporation or one or more shareholders to elect to purchase the shares of a shareholder who has petitioned for dissolution under specified provisions of the Business Corporation Law. The election ordinarily must be made within ninety days after the petition is filed and, once made, is irrevocable unless the court allows withdrawal on equitable terms.

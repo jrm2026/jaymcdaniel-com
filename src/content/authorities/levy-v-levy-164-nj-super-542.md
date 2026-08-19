@@ -2,6 +2,7 @@
 title: "Levy v. Levy"
 slug: levy-v-levy-164-nj-super-542
 citation: "164 N.J. Super. 542, 397 A.2d 374 (Ch. Div. 1978)"
+authorityType: "case"
 court: "Superior Court of New Jersey, Chancery Division"
 decided: 1978-12-06
 docket: ""

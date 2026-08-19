@@ -14,6 +14,14 @@ const { entry } = Astro.props;
 const d = entry.data;
 const { Content } = await render(entry);
 
+// The page has to name the authority for what it is. Calling a statute an
+// "opinion" (or a "case") is a citation error, not a wording preference.
+const NOUN = { case: 'opinion', statute: 'statute', rule: 'rule', ruling: 'ruling' } as const;
+const noun = NOUN[d.authorityType];
+const ISSUER_LABEL = { case: 'Court', statute: 'Enacted by', rule: 'Adopted by', ruling: 'Issued by' } as const;
+const issuerLabel = ISSUER_LABEL[d.authorityType];
+const dateLabel = d.authorityType === 'case' ? 'Decided' : 'Dated';
+
 const fmt = (v?: Date) =>
   v ? new Date(v).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
 
@@ -52,10 +60,10 @@ const jsonld = [
     <p class="citation" data-pagefind-meta="citation">{d.citation}</p>
 
     <dl class="meta">
-      {d.court && (<><dt>Court</dt><dd>{d.court}</dd></>)}
-      {d.decided && (<><dt>Decided</dt><dd>{fmt(d.decided)}</dd></>)}
+      {d.court && (<><dt>{issuerLabel}</dt><dd>{d.court}</dd></>)}
+      {d.decided && (<><dt>{dateLabel}</dt><dd>{fmt(d.decided)}</dd></>)}
       {d.docket && (<><dt>Docket</dt><dd>{d.docket}</dd></>)}
-      {!d.precedential && (<><dt>Status</dt><dd>Unpublished; not precedential</dd></>)}
+      {d.authorityType === 'case' && !d.precedential && (<><dt>Status</dt><dd>Unpublished; not precedential</dd></>)}
     </dl>
 
     {d.holding && (
@@ -66,13 +74,13 @@ const jsonld = [
       {d.archived && d.localCopy ? (
         <p>
           <a class="download" href={d.localCopy}>
-            Read the {d.format === 'text' ? 'opinion' : 'opinion (PDF)'}
+            Read the {d.format === 'text' ? noun : `${noun} (PDF)`}
           </a>
         </p>
       ) : (
         <p class="pending">
           A local copy is not yet archived.
-          {d.sourceUrl && (<> The opinion is available <a href={d.sourceUrl} rel="nofollow">here</a>.</>)}
+          {d.sourceUrl && (<> The {noun} is available <a href={d.sourceUrl} rel="nofollow">here</a>.</>)}
         </p>
       )}
 

@@ -2,6 +2,7 @@
 title: "Ferolito v. AriZona Beverages USA LLC"
 slug: ferolito-v-arizona-beverages-2014-ny-slip-op-32830u
 citation: "2014 N.Y. Slip Op. 32830(U) (Sup. Ct. Nassau Cnty. Oct. 14, 2014)"
+authorityType: "case"
 court: "Supreme Court of New York, Nassau County"
 decided: 2014-10-14
 docket: "004058-12"

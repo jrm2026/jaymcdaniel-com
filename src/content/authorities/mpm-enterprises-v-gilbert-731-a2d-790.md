@@ -2,6 +2,7 @@
 title: "M.P.M. Enterprises, Inc. v. Gilbert"
 slug: mpm-enterprises-v-gilbert-731-a2d-790
 citation: "731 A.2d 790 (Del. 1999)"
+authorityType: "case"
 court: "Supreme Court of Delaware"
 decided: 1999-06-25
 docket: "No. 266, 1998"

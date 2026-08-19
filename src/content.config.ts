@@ -32,6 +32,9 @@ const authorities = defineCollection({
     title: z.string(),
     // Official reporter first, regional parallel second.
     citation: z.string(),
+    // What kind of authority this is. Drives the noun the page uses for it
+    // ("the opinion", "the statute") and the label on the issuing body.
+    authorityType: z.enum(['case', 'statute', 'rule', 'ruling']).default('case'),
     court: z.string().optional(),
     decided: z.coerce.date().optional(),
     docket: z.string().optional(),

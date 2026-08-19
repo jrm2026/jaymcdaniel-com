@@ -2,6 +2,7 @@
 title: "Seiler v. Seiler"
 slug: seiler-v-seiler-308-nj-super-474
 citation: "308 N.J. Super. 474, 706 A.2d 249 (App. Div. 1998)"
+authorityType: "case"
 court: "Superior Court of New Jersey, Appellate Division"
 decided: 1998-02-23
 docket: ""

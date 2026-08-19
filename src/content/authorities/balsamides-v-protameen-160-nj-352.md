@@ -2,6 +2,7 @@
 title: "Balsamides v. Protameen Chemicals, Inc."
 slug: balsamides-v-protameen-160-nj-352
 citation: "160 N.J. 352, 734 A.2d 721 (1999)"
+authorityType: "case"
 court: "Supreme Court of New Jersey"
 decided: 1999-07-14
 docket: "A-27-1998"

@@ -2,6 +2,7 @@
 title: "Dugan v. Dugan"
 slug: dugan-v-dugan-92-nj-423
 citation: "92 N.J. 423, 457 A.2d 1 (1983)"
+authorityType: "case"
 court: "Supreme Court of New Jersey"
 decided: 1983-02-28
 docket: ""
