@@ -2,6 +2,7 @@
 title: "Lawson Mardon Wheaton, Inc. v. Smith"
 slug: lawson-mardon-wheaton-v-smith-160-nj-383
 citation: "160 N.J. 383, 734 A.2d 738 (1999)"
+authorityType: "case"
 court: "Supreme Court of New Jersey"
 decided: 1999-07-14
 docket: "A-63/64-1998"

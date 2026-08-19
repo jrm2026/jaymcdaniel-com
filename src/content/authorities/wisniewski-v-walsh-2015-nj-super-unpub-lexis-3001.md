@@ -2,6 +2,7 @@
 title: "Wisniewski v. Walsh"
 slug: wisniewski-v-walsh-2015-nj-super-unpub-lexis-3001
 citation: "2015 N.J. Super. Unpub. LEXIS 3001 (App. Div. Dec. 24, 2015)"
+authorityType: "case"
 court: "Superior Court of New Jersey, Appellate Division"
 decided: 2015-12-24
 docket: ""

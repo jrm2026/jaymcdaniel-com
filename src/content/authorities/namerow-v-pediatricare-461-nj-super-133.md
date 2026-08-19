@@ -2,6 +2,7 @@
 title: Namerow v. PediatriCare Associates, LLC
 slug: namerow-v-pediatricare-461-nj-super-133
 citation: 461 N.J. Super. 133, 218 A.3d 839 (Ch. Div. 2018)
+authorityType: "case"
 court: Superior Court of New Jersey, Chancery Division, Bergen County
 decided: 2018-11-30
 docket: C-000273-17

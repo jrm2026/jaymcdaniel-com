@@ -2,6 +2,7 @@
 title: "Revenue Ruling 59-60"
 slug: revenue-ruling-59-60
 citation: "Rev. Rul. 59-60, 1959-1 C.B. 237"
+authorityType: "ruling"
 court: "Internal Revenue Service"
 jurisdiction: "Federal"
 precedential: true

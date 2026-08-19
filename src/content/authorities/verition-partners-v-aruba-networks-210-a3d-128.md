@@ -2,6 +2,7 @@
 title: "Verition Partners Master Fund Ltd. v. Aruba Networks, Inc."
 slug: verition-partners-v-aruba-networks-210-a3d-128
 citation: "210 A.3d 128 (Del. 2019)"
+authorityType: "case"
 court: "Supreme Court of Delaware"
 decided: 2019-04-16
 docket: "No. 368, 2018"

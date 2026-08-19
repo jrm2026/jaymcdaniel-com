@@ -2,6 +2,7 @@
 title: "Slutsky v. Slutsky"
 slug: slutsky-v-slutsky-451-nj-super-332
 citation: "451 N.J. Super. 332, 167 A.3d 660 (App. Div. 2017)"
+authorityType: "case"
 court: "Superior Court of New Jersey, Appellate Division"
 decided: 2017-08-08
 docket: ""

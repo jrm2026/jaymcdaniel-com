@@ -2,6 +2,7 @@
 title: "Piscopo v. Piscopo"
 slug: piscopo-v-piscopo-232-nj-super-559
 citation: "232 N.J. Super. 559, 557 A.2d 1040 (App. Div. 1989)"
+authorityType: "case"
 court: "Superior Court of New Jersey, Appellate Division"
 decided: 1989-05-01
 docket: ""

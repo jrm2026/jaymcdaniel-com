@@ -2,6 +2,7 @@
 title: "Stern v. Stern"
 slug: stern-v-stern-66-nj-340
 citation: "66 N.J. 340, 331 A.2d 257 (1975)"
+authorityType: "case"
 court: "Supreme Court of New Jersey"
 decided: 1975-01-23
 docket: ""

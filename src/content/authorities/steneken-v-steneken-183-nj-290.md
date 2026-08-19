@@ -2,6 +2,7 @@
 title: "Steneken v. Steneken"
 slug: steneken-v-steneken-183-nj-290
 citation: "183 N.J. 290, 873 A.2d 501 (2005)"
+authorityType: "case"
 court: "Supreme Court of New Jersey"
 decided: 2005-05-18
 docket: ""

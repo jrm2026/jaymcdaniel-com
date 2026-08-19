@@ -2,6 +2,7 @@
 title: "Brown v. Brown"
 slug: brown-v-brown-348-nj-super-466
 citation: "348 N.J. Super. 466, 792 A.2d 463 (App. Div. 2002)"
+authorityType: "case"
 court: "Superior Court of New Jersey, Appellate Division"
 decided: 2002-02-28
 docket: ""
