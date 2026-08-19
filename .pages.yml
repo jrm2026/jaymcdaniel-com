@@ -101,7 +101,7 @@ content:
 
       - name: body
         label: Body
-        type: text
+        type: rich-text
         description: "Markdown. Start with your first point - the lede renders above this automatically."
 
   - name: authorities
@@ -219,7 +219,7 @@ content:
         description: "Provenance. Lets a verification pass detect an altered file."
       - name: body
         label: Headnote
-        type: text
+        type: rich-text
         description: "Your analysis: what it decides, what it means for an owner, where it sits against related authority. Two to four paragraphs. Required before publishing."
 
   - name: site
