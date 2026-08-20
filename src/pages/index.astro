@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PostRow from '../components/PostRow.astro';
 import { allPosts, fmtDate } from '../lib/posts';
-import { SITE, PILLARS, pillarByLabel } from '../lib/site';
+import { SITE, pillarByLabel } from '../lib/site';
 
 const posts = await allPosts();
 const featured = posts[0];
@@ -28,12 +28,6 @@ const featPillar = featured ? pillarByLabel(featured.data.pillar) : undefined;
           </div>
         )}
 
-        <div class="filterbar" id="filter">
-          <button class="chip active" data-f="all">All Topics</button>
-          {PILLARS.map((p) => <button class="chip" data-f={p.filter}>{p.label}</button>)}
-          <button class="chip" data-f="matrimonial">Matrimonial</button>
-          <button class="chip" data-f="tax">Tax Controversy</button>
-        </div>
 
         <div id="posts">
           {rest.map((post) => <PostRow post={post} />)}
@@ -46,19 +40,3 @@ const featPillar = featured ? pillarByLabel(featured.data.pillar) : undefined;
     </div>
   </div>
 </BaseLayout>
-
-<script is:inline>
-  const chips = document.querySelectorAll('.chip');
-  const posts = document.querySelectorAll('#posts .post');
-  chips.forEach((c) =>
-    c.addEventListener('click', () => {
-      chips.forEach((x) => x.classList.remove('active'));
-      c.classList.add('active');
-      const f = c.dataset.f;
-      posts.forEach((p) => {
-        const match = f === 'all' || p.dataset.topic.split(' ').includes(f);
-        p.classList.toggle('hidden', !match);
-      });
-    })
-  );
-</script>

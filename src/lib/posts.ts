@@ -64,13 +64,3 @@ export function fmtDate(d: Date): string {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-// Filter token used by the home-page chip filter (pillar + tags, space-joined).
-export function filterTokens(post: Post, pillarFilter: (label: string) => string | undefined): string {
-  const tokens = new Set<string>();
-  const pf = pillarFilter(post.data.pillar);
-  if (pf) tokens.add(pf);
-  for (const t of post.data.tags) {
-    tokens.add(t.toLowerCase().split(/\s|&/)[0]);
-  }
-  return Array.from(tokens).join(' ');
-}

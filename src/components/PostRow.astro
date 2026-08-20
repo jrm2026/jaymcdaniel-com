@@ -1,14 +1,12 @@
 ---
 import type { Post } from '../lib/posts';
-import { fmtDate, filterTokens } from '../lib/posts';
-import { pillarByLabel } from '../lib/site';
+import { fmtDate } from '../lib/posts';
 
 interface Props { post: Post }
 const { post } = Astro.props;
 const { data, id } = post;
-const topics = filterTokens(post, (label) => pillarByLabel(label)?.filter);
 ---
-<article class="post" data-topic={topics}>
+<article class="post">
   <div class="meta-tag">{data.pillar}</div>
   <div class="body">
     <h2><a href={`/${id}/`} set:html={data.title}></a></h2>
