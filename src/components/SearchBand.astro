@@ -1,0 +1,24 @@
+---
+// Search band under the nav. It covers the two places the sidebar searchbox
+// cannot reach: mobile, where the sidebar stacks to the foot of the page, and
+// article pages, which render no sidebar at all. The sidebar box is hidden
+// below 820px so the two never appear together.
+import Search from 'astro-pagefind/components/Search.astro';
+interface Props {
+  /** Show at every width, not just mobile — for pages with no sidebar. */
+  always?: boolean;
+}
+const { always = false } = Astro.props;
+---
+<div class:list={['searchband', { always }]}>
+  <div class="searchband-row">
+    <Search
+      className="pf"
+      searchboxOptions={{
+        placeholder: 'Search the archive…',
+        'show-images': 'false',
+        'default-message': 'Type a topic, case name, or citation.',
+      }}
+    />
+  </div>
+</div>

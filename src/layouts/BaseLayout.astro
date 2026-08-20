@@ -3,6 +3,7 @@ import '../styles/global.css';
 import { SITE } from '../lib/site';
 import Masthead from '../components/Masthead.astro';
 import Nav from '../components/Nav.astro';
+import SearchBand from '../components/SearchBand.astro';
 import EngagementBand from '../components/EngagementBand.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 
@@ -13,8 +14,12 @@ interface Props {
   /** Extra JSON-LD objects (Article, FAQPage, etc.) for this page. */
   jsonld?: object[];
   ogType?: string;
+  /** Show the search band at every width — for pages that render no sidebar. */
+  searchAlways?: boolean;
+  /** Opt out of the band entirely — for pages that carry their own search. */
+  searchBand?: boolean;
 }
-const { title, description, current, jsonld = [], ogType = 'website' } = Astro.props;
+const { title, description, current, jsonld = [], ogType = 'website', searchAlways = false, searchBand = true } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 
 // Person + LegalService entity — emitted on every page for a single, sharp entity (Section 8).
@@ -76,6 +81,7 @@ const graphs = [person, org, ...jsonld];
     <a href="#main" class="skip-link">Skip to content</a>
     <Masthead />
     <Nav current={current} />
+    {searchBand && <SearchBand always={searchAlways} />}
     <main id="main">
       <slot />
     </main>

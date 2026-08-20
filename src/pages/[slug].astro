@@ -59,12 +59,13 @@ const faqSchema = {
   description={plain(data.answerFirst).slice(0, 200)}
   jsonld={[articleSchema, faqSchema]}
   ogType="article"
+  searchAlways
 >
   <article class="article-wrap" data-pagefind-body>
     <div class="kicker">{data.pillar}</div>
     <div class="article-head">
       <h1 set:html={data.title} data-pagefind-meta="title"></h1>
-      <div class="byline">By <b>{SITE.authorByline}</b> &nbsp;·&nbsp; {fmtDate(data.date)} &nbsp;·&nbsp; {data.readTime}</div>
+      <div class="byline" data-pagefind-ignore>By <b>{SITE.authorByline}</b> &nbsp;·&nbsp; {fmtDate(data.date)} &nbsp;·&nbsp; {data.readTime}</div>
     </div>
 
     <div class="article-body">
