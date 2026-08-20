@@ -91,9 +91,11 @@ aside h3{font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transf
 .subcopy{font-size:14.5px;color:#e8edf4;line-height:1.5;margin:0 0 15px}
 .email-cta{display:inline-block;font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;background:#fff;color:var(--accent);text-decoration:none;padding:11px 22px;border-radius:4px;cursor:pointer}
 .email-cta:hover{background:#eef2f7}
-/* Address variant: shows the real email so it stays usable (copyable) even when
-   the visitor's browser has no mailto: handler and the click would no-op. */
-.email-cta.addr{text-transform:none;letter-spacing:0;font-size:15px;user-select:all}
+/* Address variant: shows the real email in full so it stays readable and
+   selectable even when the visitor's browser has no mailto: handler and the
+   click would no-op. Do not add user-select:all here — it makes a click select
+   the text instead of activating the mailto: link. */
+.email-cta.addr{text-transform:none;letter-spacing:0;font-size:15px}
 
 .authorcard{display:flex;gap:14px;align-items:center;margin-bottom:14px}
 .avatar{width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#33465f,#5a4033);flex:none;display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;letter-spacing:.04em}
