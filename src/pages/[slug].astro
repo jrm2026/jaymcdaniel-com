@@ -60,10 +60,10 @@ const faqSchema = {
   jsonld={[articleSchema, faqSchema]}
   ogType="article"
 >
-  <article class="article-wrap">
+  <article class="article-wrap" data-pagefind-body>
     <div class="kicker">{data.pillar}</div>
     <div class="article-head">
-      <h1 set:html={data.title}></h1>
+      <h1 set:html={data.title} data-pagefind-meta="title"></h1>
       <div class="byline">By <b>{SITE.authorByline}</b> &nbsp;·&nbsp; {fmtDate(data.date)} &nbsp;·&nbsp; {data.readTime}</div>
     </div>
 
@@ -82,13 +82,13 @@ const faqSchema = {
       </div>
     )}
 
-    <div class="endsub">
+    <div class="endsub" data-pagefind-ignore>
       <h3>Have a question about your situation?</h3>
       <p>This piece answers the general question. For the specific one in front of you, email me directly &mdash; tell me what you are dealing with.</p>
       <a class="email-cta addr" href={mailto(`Question: ${data.title.replace(/<[^>]+>/g, '')}`)}>{SITE.email}</a>
     </div>
 
-    <div class="authorfoot">
+    <div class="authorfoot" data-pagefind-ignore>
       <div class="avatar" aria-hidden="true">JM</div>
       <div>
         <div class="n">{SITE.authorName}</div>
@@ -98,7 +98,7 @@ const faqSchema = {
     </div>
 
     {related.length > 0 && (
-      <div class="related">
+      <div class="related" data-pagefind-ignore>
         <h3>Related</h3>
         {related.map((r) => (
           <div class="rel-item">
