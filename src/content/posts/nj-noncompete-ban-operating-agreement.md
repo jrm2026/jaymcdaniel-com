@@ -19,7 +19,7 @@ One of them now wants out. The covenant is why the negotiation has a floor: the 
 
 Senate Bill 1407 would void that paragraph on the day it is signed — not prospectively, but as to the covenant executed in 2008 — and require the firm to notify its departing owner within thirty business days that he is free to compete.
 
-There is no federal backstop. The FTC's Non-Compete Rule never took effect: it was vacated in litigation, and the Commission removed it from the Code of Federal Regulations effective February 12, 2026. Whether a New Jersey owner's covenant survives is now entirely a question of New Jersey law.
+There is no federal backstop. The FTC's Non-Compete Rule never took effect: a federal court set it aside two weeks before its September 4, 2024 effective date, ordering that it "shall not be enforced or otherwise take effect." *Ryan, LLC v. Federal Trade Commission*, No. 3:24-cv-00986 (N.D. Tex. Aug. 20, 2024). The Commission removed it from the Code of Federal Regulations effective February 12, 2026. Whether a New Jersey owner's covenant survives is now entirely a question of New Jersey law.
 
 New Jersey has been trying to pass some version of this for the better part of a decade, and the vehicles keep dying in committee. That history is the trap. The exposure is not that a ban is imminent; it is that when one arrives it reaches backward and takes effect immediately.
 
@@ -45,7 +45,7 @@ Two phrases do the work.
 
 **"Pursuant to a bona fide sale."** The covenant must be given in connection with a sale. One signed at formation, on admission of a new member, or in an amended operating agreement adopted for governance reasons is not — and that is where most covenants binding owners of closely held New Jersey companies were signed.
 
-**"By an employer... of the employer's ownership interest."** In the ordinary closely held transaction the seller is a member selling her own units; the entity sells nothing. Read literally, the most common business divorce in New Jersey does not fit the exception the bill wrote for business divorces. A court may supply the sensible construction. No one should build a buyout on the expectation that it will.
+**"By an employer... of the employer's ownership interest."** In the ordinary closely held transaction the seller is a member selling her own units; the entity sells nothing. Read literally, the most common business divorce in New Jersey does not fit the exception the bill wrote for business divorces. A court may supply the sensible construction. No one should build a buyout on that expectation.
 
 The common law drew this line by looking at substance. *Solari Industries, Inc. v. Malady*, 55 N.J. 571, 576 (1970), held that "a seller's incidental noncompetitive covenant, which is designed to protect the good will of the business for the buyer, is freely enforceable," while an employee's covenant is "not, because of the countervailing policy considerations, as freely enforceable." The bill converts that substantive inquiry into a textual one. It asks what the document is, not what the transaction did.
 
@@ -57,7 +57,7 @@ The common law drew this line by looking at substance. *Solari Industries, Inc. 
 
 **The partial sale.** A member sells half her interest to her partner for $1.4 million, signs a five-year restriction as part of the deal, and stays on running the division she built. Both characterizations are available. There is a bona fide sale and real consideration — but the seller is a member rather than the employer, and because she remained employed the covenant also arises out of a continuing employment relationship. The buyer paid for goodwill assuming the restriction holds. Whether it holds turns on which characterization a court reaches first.
 
-**The senior executive.** The managing member, $400,000 in salary, unambiguous policy-making authority. He is the one owner the bill appears to protect, and the protection is expensive: his covenant survives only if conformed to all twelve conditions within thirty business days, one of which requires the company to pay his full salary and benefits throughout the restricted period. A twelve-month restraint costs $400,000 to enforce. Most closely held companies will let it lapse, so the protective tier produces the same result as the tier that voids outright.
+**The senior executive.** The managing member, $400,000 in salary, unambiguous policy-making authority. He is the one owner the bill appears to protect, and the protection is expensive: his covenant survives only if conformed to all twelve conditions within thirty business days, one of which requires the company to pay his full salary and benefits throughout the restricted period. A twelve-month restraint costs $400,000 to enforce. Most will let it lapse, so the protective tier produces the same result as the tier that voids outright.
 
 ## What does retroactivity mean for a covenant already signed?
 
