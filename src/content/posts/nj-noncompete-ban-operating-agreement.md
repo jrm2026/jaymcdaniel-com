@@ -17,7 +17,11 @@ Two engineers built a firm over eighteen years. The operating agreement they sig
 
 One of them now wants out. The covenant is why the negotiation has a floor: the continuing owner is buying a business the departing owner cannot rebuild across town next quarter, and the price reflects it.
 
-Senate Bill 1407 would void that paragraph on the day it is signed — not prospectively, but as to the covenant executed in 2008 — and require the firm to notify its departing owner within thirty business days that he is free to compete. New Jersey has been trying to pass some version of this for the better part of a decade, and the vehicles keep dying in committee. That history is the trap. The exposure is not that a ban is imminent; it is that when one arrives it reaches backward and takes effect immediately.
+Senate Bill 1407 would void that paragraph on the day it is signed — not prospectively, but as to the covenant executed in 2008 — and require the firm to notify its departing owner within thirty business days that he is free to compete.
+
+There is no federal backstop. The FTC's Non-Compete Rule never took effect: it was vacated in litigation, and the Commission removed it from the Code of Federal Regulations effective February 12, 2026. Whether a New Jersey owner's covenant survives is now entirely a question of New Jersey law.
+
+New Jersey has been trying to pass some version of this for the better part of a decade, and the vehicles keep dying in committee. That history is the trap. The exposure is not that a ban is imminent; it is that when one arrives it reaches backward and takes effect immediately.
 
 <!-- Internal link, pending: CD-01 — [title TBD](/cd-01-slug/) -->
 
