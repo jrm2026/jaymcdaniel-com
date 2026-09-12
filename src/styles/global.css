@@ -271,8 +271,34 @@ footer.site .attorney-advertising p{font-size:11.5px;line-height:1.65;margin:0}
          fold on their own. --- */
   .article-wrap,.page-wrap{padding-top:26px}
   .layout{padding-top:24px}
-  .engage .inner{padding:26px var(--gutter)}
-  footer.site .inner{padding:30px var(--gutter) 22px}
+
+  /* --- engagement band: the single hard CTA, tightened so it reads as one
+         decision rather than a screenful of preamble. --- */
+  .engage .inner{padding:22px var(--gutter);gap:16px}
+  .engage h4{line-height:1.25;margin-bottom:8px}
+  .engage p{font-size:14.5px;line-height:1.5}
+
+  /* --- footer: a three-column desktop sitemap poured into one column of
+         44px rows ran 659px on its own. Identity spans the width; the two
+         link groups sit beside each other. --- */
+  footer.site .inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 20px;
+    padding:26px var(--gutter) 20px}
+  footer.site .inner > div:first-child{grid-column:1 / -1}
+  footer.site h5{margin-bottom:6px}
+
+  /* --- offices: four stacked lines each is a desktop address block. Street
+         and city run together on a phone; the city label and the telephone
+         keep their own lines. --- */
+  .offices{padding:18px var(--gutter);gap:16px}
+  .offices .office{display:block;line-height:1.5}
+  .offices .office-city{display:block;margin-bottom:2px}
+  .offices .office span:not(.office-city) + span::before{content:", "}
+
+  /* --- the required disclosure keeps its size; only leading and the
+         padding around it come in. --- */
+  .attorney-advertising{padding:18px var(--gutter) 14px}
+  footer.site .attorney-advertising p{line-height:1.55}
+  .redirect-note{padding:14px var(--gutter);line-height:1.5}
 
   /* --- touch targets: WCAG 2.5.8 floor is 24px, the platform guidance is 44.
          Chips sat at 30px, sidebar rows at 21px. --- */
@@ -282,9 +308,12 @@ footer.site .attorney-advertising p{font-size:11.5px;line-height:1.65;margin:0}
   .readmore{padding:10px 0}
   .tagrow a,.tagrow .tag-plain{padding:12px 15px}
   .loadmore a{display:inline-block;padding:14px 26px}
-  .engage .cta{display:block;text-align:center;padding:15px 20px;white-space:normal}
+  .engage .cta{display:block;width:100%;text-align:center;padding:15px 20px;white-space:normal}
   footer.site a{padding:12px 0}
-  .offices .office a{padding:10px 0}
+  /* the profile link and the office telephone set smaller type, so they need
+     a little more padding to clear the same 44px floor */
+  footer.site .profile-link{padding:13px 0}
+  .offices .office a{display:block;padding:13px 0}
 
 }
 
