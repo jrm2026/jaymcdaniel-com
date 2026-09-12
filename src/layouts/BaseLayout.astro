@@ -16,6 +16,9 @@ interface Props {
 }
 const { title, description, current, jsonld = [], ogType = 'website' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
+// The home page carries the full nameplate; every other page gets the compact
+// identity row on phones (desktop is unchanged either way).
+const isHome = Astro.url.pathname === '/';
 
 // Person + LegalService entity — emitted on every page for a single, sharp entity (Section 8).
 const person = {
@@ -55,6 +58,7 @@ const graphs = [person, org, ...jsonld];
       gtag('config', 'G-PMSFF1LHXB');
     </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#faf8f4" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -74,7 +78,7 @@ const graphs = [person, org, ...jsonld];
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
-    <Masthead />
+    <Masthead full={isHome} />
     <Nav current={current} />
     <main id="main">
       <slot />

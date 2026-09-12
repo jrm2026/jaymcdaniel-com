@@ -6,10 +6,24 @@ const cur = (key: string) => (current === key ? 'page' : undefined);
 ---
 <nav class="main" aria-label="Primary">
   <div class="navrow">
-    <a href="/articles/" class:list={[]} aria-current={cur('articles')}>Articles</a>
+    <a href="/articles/" aria-current={cur('articles')}>Articles</a>
     {PILLARS.map((p) => (
       <a href={`/${p.slug}/`} class="pillar" aria-current={cur(p.slug)}>{p.label}</a>
     ))}
     <a href="/about/" aria-current={cur('about')}>About</a>
   </div>
 </nav>
+
+<script is:inline>
+  /* On a phone the nav is a rail that scrolls sideways, so the current
+     section can start off-screen. Nudge it into view. Progressive
+     enhancement only: with scripting off the rail still works, it just
+     starts at the left. */
+  (function () {
+    var row = document.querySelector('nav.main .navrow');
+    var cur = row && row.querySelector('a[aria-current="page"]');
+    if (!cur || row.scrollWidth <= row.clientWidth) return;
+    var pad = parseFloat(getComputedStyle(row).paddingLeft) || 0;
+    row.scrollLeft = Math.max(0, cur.offsetLeft - pad);
+  })();
+</script>

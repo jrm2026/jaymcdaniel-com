@@ -2,18 +2,28 @@
 import { Image } from 'astro:assets';
 import { SITE } from '../lib/site';
 import portrait from '../assets/jay-mcdaniel.jpg';
+
+interface Props {
+  /** The home page carries the full nameplate. Every other page gets the
+      compact identity row on phones — the tagline and credentials are
+      restated in the byline, author card, and About page. */
+  full?: boolean;
+}
+const { full = false } = Astro.props;
 ---
-<header class="masthead">
-  <Image
-    class="portrait"
-    src={portrait}
-    alt={SITE.name}
-    width={120}
-    height={120}
-    densities={[2]}
-    loading="eager"
-  />
-  <div class="wordmark"><a href="/">{SITE.wordmarkFirst} <span>{SITE.wordmarkLast}</span></a></div>
-  <div class="tagline">{SITE.tagline}</div>
-  <div class="creds">{SITE.creds}</div>
+<header class:list={['masthead', full && 'full']}>
+  <a class="brand" href="/">
+    <Image
+      class="portrait"
+      src={portrait}
+      alt=""
+      width={120}
+      height={120}
+      densities={[2]}
+      loading="eager"
+    />
+    <span class="wordmark">{SITE.wordmarkFirst} <span>{SITE.wordmarkLast}</span></span>
+  </a>
+  <p class="tagline">{SITE.tagline}</p>
+  <p class="creds">{SITE.creds}</p>
 </header>
