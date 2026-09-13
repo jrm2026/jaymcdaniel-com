@@ -60,7 +60,7 @@ their landing-page headnotes are in the same file.
 | Newsletter name | "The Valuation Letter" | `src/lib/site.ts` → `newsletter` |
 | Pillar labels | Valuation / Business Divorce / Exit & Succession | `src/lib/site.ts` → `PILLARS` |
 | Post URL pattern | Flat `/[slug]/` | (chosen; see note below) |
-| Business-divorce domain | Full 301 fold-in assumed | `public/_redirects` + old-domain DNS |
+| Business-divorce domain | Not folded in — its own site | see Migration below |
 | Headshot | JM monogram placeholder | replace `.avatar` blocks / add image |
 
 The flat `/[slug]/` pattern is wired in `src/pages/[slug].astro`. If you'd rather
@@ -107,10 +107,19 @@ same automatic SSL.
 ## Migration / redirects (build brief, Section 10)
 
 `public/_redirects` handles path-level 301s once you've inventoried the old URLs.
-The domain-level redirects for thebusinessdivorcelawyer.com and valuationcounsel.law
-are set on those domains' own DNS/hosting, pointed at this hub. Map each old URL to
-its nearest new equivalent before flipping the redirects, then submit the sitemap
-(`/sitemap-index.xml`) and watch for 404s.
+
+**thebusinessdivorcelawyer.com was not folded in.** The build brief assumed a full
+301 into this hub. That is not what happened: the Business Divorce Law Report runs
+as its own static Astro site from `jrm2026/businessdivorce-com`, serving its own
+domain and its own archive of 208 posts. Articles here link out to it as a separate
+publication. The footer used to claim it redirected here; that claim was removed on
+2026-09-13.
+
+valuationcounsel.law has not been verified either way — check where it points before
+relying on it.
+
+For any old URL you do fold in, map it to its nearest new equivalent before flipping
+the redirect, then submit the sitemap (`/sitemap-index.xml`) and watch for 404s.
 
 ---
 

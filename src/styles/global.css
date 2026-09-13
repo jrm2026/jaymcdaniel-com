@@ -147,7 +147,6 @@ footer.site .profile-link{font-size:12px}
 .attorney-advertising{max-width:1000px;margin:0 auto;padding:20px var(--gutter) 18px;border-top:1px solid #34383f;color:#9f9a91}
 .attorney-advertising h5{margin-bottom:8px}
 footer.site .attorney-advertising p{font-size:11.5px;line-height:1.65;margin:0}
-.redirect-note{font-size:11.5px;color:#7d786f;border-top:1px solid #34383f;margin-top:8px;padding:16px var(--gutter);text-align:center;font-style:italic}
 
 /* ---------- pillar landing headnote ---------- */
 .headnote{border-bottom:1px solid var(--line);padding:6px 0 26px;margin-bottom:8px}
@@ -298,7 +297,6 @@ footer.site .attorney-advertising p{font-size:11.5px;line-height:1.65;margin:0}
          padding around it come in. --- */
   .attorney-advertising{padding:18px var(--gutter) 14px}
   footer.site .attorney-advertising p{line-height:1.55}
-  .redirect-note{padding:14px var(--gutter);line-height:1.5}
 
   /* --- touch targets: WCAG 2.5.8 floor is 24px, the platform guidance is 44.
          Chips sat at 30px, sidebar rows at 21px. --- */
